@@ -42,6 +42,29 @@ pig_km$centers
 plot(pig_scala,col=pig_km$cluster)
 save(pig_km,file = "simple_kmeans.rdata")
 #预测模型该怎么做?就是输入一组变量,预测一下属于哪个聚类?
+
+Pred.R <- function(x1,x2,x3){
+    data  <- cbind(x1,x2,x3)
+    score <- predict(modelname, data, type = 'prob')
+    return(list(score))
+}
+
+
+```
+
+# R一元线性回归
+```r
+x <- c(seq(0.10,0.18,by = 0.01),0.20,0.21,0.23)
+y <- c(42.0,43.5,45.0,45.5,45.0,47.5,49.0,53.0,50.0,55.0,55.0,60.0)
+plot(x,y)
+lm.sol  <- lm(y~1+x)
+summary(lm.sol)
+new     <- data.frame(x = 0.16)
+lm.pred <- predict(lm.sol,new,interval = "prediction",level = 0.95)
+lm.pred
+lm.pred[1]
+lm.pred[2]
+lm.pred[3]
 ```
 
 # RServe相关
@@ -98,3 +121,5 @@ max.input buffer size: 262144 kB
 
 # 参考资料
 - Rserve实现java与R的互通,https://www.cnblogs.com/mutougezi/p/6140329.html
+- R中的线性回归分析,https://www.cnblogs.com/malt927/p/6074185.html
+- 数据挖掘模型如何进行线上部署,https://www.zhihu.com/question/49775870/answer/118149542
