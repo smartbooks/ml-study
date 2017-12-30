@@ -12,6 +12,25 @@ y=rnorm(10)
 plot(x,y)
 ```
 
+# R模型保存/加载步骤
+```r
+#定义一个面积函数
+area <- function(r){pi*r^2}
+
+#面积计算结果
+x <- area(10)
+
+#保存内存镜像,save(x,path)x是一个对象,很抽象的那种,比如变量/模型/图像/矩阵/向量等等
+save(x, file="mj.rdata")
+
+#加载内存镜像
+load("mj.rdata")
+
+#输出对象X的值
+print(x)
+
+```
+
 # RServe相关
 ```
 
