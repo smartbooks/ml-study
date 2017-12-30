@@ -31,6 +31,19 @@ print(x)
 
 ```
 
+# R KMeans简单示例
+```r
+pig       <- read.csv('ha.pig.price.train.csv')
+pig_vect  <- pig[c("year","week","pig_price","bean_pulp_price","chance","yumi","xiaomaifu","yufen","siliao","zhurou")]
+pig_scala <- scale(pig_vect)
+pig_km    <- kmeans(pig_scala,centers = 10)
+pig_km$cluster
+pig_km$centers
+plot(pig_scala,col=pig_km$cluster)
+save(pig_km,file = "simple_kmeans.rdata")
+#预测模型该怎么做?就是输入一组变量,预测一下属于哪个聚类?
+```
+
 # RServe相关
 ```
 
