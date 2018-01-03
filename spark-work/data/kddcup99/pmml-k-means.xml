@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_2" version="4.2">
+    <Header description="k-means clustering">
+        <Application name="Apache Spark MLlib" version="2.2.0.cloudera1"/>
+        <Timestamp>2018-01-03T13:04:51</Timestamp>
+    </Header>
+    <DataDictionary numberOfFields="38">
+        <DataField name="field_0" optype="continuous" dataType="double"/>
+        <DataField name="field_1" optype="continuous" dataType="double"/>
+        <DataField name="field_2" optype="continuous" dataType="double"/>
+        <DataField name="field_3" optype="continuous" dataType="double"/>
+        <DataField name="field_4" optype="continuous" dataType="double"/>
+        <DataField name="field_5" optype="continuous" dataType="double"/>
+        <DataField name="field_6" optype="continuous" dataType="double"/>
+        <DataField name="field_7" optype="continuous" dataType="double"/>
+        <DataField name="field_8" optype="continuous" dataType="double"/>
+        <DataField name="field_9" optype="continuous" dataType="double"/>
+        <DataField name="field_10" optype="continuous" dataType="double"/>
+        <DataField name="field_11" optype="continuous" dataType="double"/>
+        <DataField name="field_12" optype="continuous" dataType="double"/>
+        <DataField name="field_13" optype="continuous" dataType="double"/>
+        <DataField name="field_14" optype="continuous" dataType="double"/>
+        <DataField name="field_15" optype="continuous" dataType="double"/>
+        <DataField name="field_16" optype="continuous" dataType="double"/>
+        <DataField name="field_17" optype="continuous" dataType="double"/>
+        <DataField name="field_18" optype="continuous" dataType="double"/>
+        <DataField name="field_19" optype="continuous" dataType="double"/>
+        <DataField name="field_20" optype="continuous" dataType="double"/>
+        <DataField name="field_21" optype="continuous" dataType="double"/>
+        <DataField name="field_22" optype="continuous" dataType="double"/>
+        <DataField name="field_23" optype="continuous" dataType="double"/>
+        <DataField name="field_24" optype="continuous" dataType="double"/>
+        <DataField name="field_25" optype="continuous" dataType="double"/>
+        <DataField name="field_26" optype="continuous" dataType="double"/>
+        <DataField name="field_27" optype="continuous" dataType="double"/>
+        <DataField name="field_28" optype="continuous" dataType="double"/>
+        <DataField name="field_29" optype="continuous" dataType="double"/>
+        <DataField name="field_30" optype="continuous" dataType="double"/>
+        <DataField name="field_31" optype="continuous" dataType="double"/>
+        <DataField name="field_32" optype="continuous" dataType="double"/>
+        <DataField name="field_33" optype="continuous" dataType="double"/>
+        <DataField name="field_34" optype="continuous" dataType="double"/>
+        <DataField name="field_35" optype="continuous" dataType="double"/>
+        <DataField name="field_36" optype="continuous" dataType="double"/>
+        <DataField name="field_37" optype="continuous" dataType="double"/>
+    </DataDictionary>
+    <ClusteringModel modelName="k-means" functionName="clustering" modelClass="centerBased" numberOfClusters="14">
+        <MiningSchema>
+            <MiningField name="field_0" usageType="active"/>
+            <MiningField name="field_1" usageType="active"/>
+            <MiningField name="field_2" usageType="active"/>
+            <MiningField name="field_3" usageType="active"/>
+            <MiningField name="field_4" usageType="active"/>
+            <MiningField name="field_5" usageType="active"/>
+            <MiningField name="field_6" usageType="active"/>
+            <MiningField name="field_7" usageType="active"/>
+            <MiningField name="field_8" usageType="active"/>
+            <MiningField name="field_9" usageType="active"/>
+            <MiningField name="field_10" usageType="active"/>
+            <MiningField name="field_11" usageType="active"/>
+            <MiningField name="field_12" usageType="active"/>
+            <MiningField name="field_13" usageType="active"/>
+            <MiningField name="field_14" usageType="active"/>
+            <MiningField name="field_15" usageType="active"/>
+            <MiningField name="field_16" usageType="active"/>
+            <MiningField name="field_17" usageType="active"/>
+            <MiningField name="field_18" usageType="active"/>
+            <MiningField name="field_19" usageType="active"/>
+            <MiningField name="field_20" usageType="active"/>
+            <MiningField name="field_21" usageType="active"/>
+            <MiningField name="field_22" usageType="active"/>
+            <MiningField name="field_23" usageType="active"/>
+            <MiningField name="field_24" usageType="active"/>
+            <MiningField name="field_25" usageType="active"/>
+            <MiningField name="field_26" usageType="active"/>
+            <MiningField name="field_27" usageType="active"/>
+            <MiningField name="field_28" usageType="active"/>
+            <MiningField name="field_29" usageType="active"/>
+            <MiningField name="field_30" usageType="active"/>
+            <MiningField name="field_31" usageType="active"/>
+            <MiningField name="field_32" usageType="active"/>
+            <MiningField name="field_33" usageType="active"/>
+            <MiningField name="field_34" usageType="active"/>
+            <MiningField name="field_35" usageType="active"/>
+            <MiningField name="field_36" usageType="active"/>
+            <MiningField name="field_37" usageType="active"/>
+        </MiningSchema>
+        <ComparisonMeasure kind="distance">
+            <squaredEuclidean/>
+        </ComparisonMeasure>
+        <ClusteringField field="field_0" compareFunction="absDiff"/>
+        <ClusteringField field="field_1" compareFunction="absDiff"/>
+        <ClusteringField field="field_2" compareFunction="absDiff"/>
+        <ClusteringField field="field_3" compareFunction="absDiff"/>
+        <ClusteringField field="field_4" compareFunction="absDiff"/>
+        <ClusteringField field="field_5" compareFunction="absDiff"/>
+        <ClusteringField field="field_6" compareFunction="absDiff"/>
+        <ClusteringField field="field_7" compareFunction="absDiff"/>
+        <ClusteringField field="field_8" compareFunction="absDiff"/>
+        <ClusteringField field="field_9" compareFunction="absDiff"/>
+        <ClusteringField field="field_10" compareFunction="absDiff"/>
+        <ClusteringField field="field_11" compareFunction="absDiff"/>
+        <ClusteringField field="field_12" compareFunction="absDiff"/>
+        <ClusteringField field="field_13" compareFunction="absDiff"/>
+        <ClusteringField field="field_14" compareFunction="absDiff"/>
+        <ClusteringField field="field_15" compareFunction="absDiff"/>
+        <ClusteringField field="field_16" compareFunction="absDiff"/>
+        <ClusteringField field="field_17" compareFunction="absDiff"/>
+        <ClusteringField field="field_18" compareFunction="absDiff"/>
+        <ClusteringField field="field_19" compareFunction="absDiff"/>
+        <ClusteringField field="field_20" compareFunction="absDiff"/>
+        <ClusteringField field="field_21" compareFunction="absDiff"/>
+        <ClusteringField field="field_22" compareFunction="absDiff"/>
+        <ClusteringField field="field_23" compareFunction="absDiff"/>
+        <ClusteringField field="field_24" compareFunction="absDiff"/>
+        <ClusteringField field="field_25" compareFunction="absDiff"/>
+        <ClusteringField field="field_26" compareFunction="absDiff"/>
+        <ClusteringField field="field_27" compareFunction="absDiff"/>
+        <ClusteringField field="field_28" compareFunction="absDiff"/>
+        <ClusteringField field="field_29" compareFunction="absDiff"/>
+        <ClusteringField field="field_30" compareFunction="absDiff"/>
+        <ClusteringField field="field_31" compareFunction="absDiff"/>
+        <ClusteringField field="field_32" compareFunction="absDiff"/>
+        <ClusteringField field="field_33" compareFunction="absDiff"/>
+        <ClusteringField field="field_34" compareFunction="absDiff"/>
+        <ClusteringField field="field_35" compareFunction="absDiff"/>
+        <ClusteringField field="field_36" compareFunction="absDiff"/>
+        <ClusteringField field="field_37" compareFunction="absDiff"/>
+        <Cluster name="cluster_0">
+            <Array n="38" type="real">47.28942673921099 902.0664886131467 570.9387618733282 4.454712782393355E-5 0.006435035101111855 8.099477786169737E-6 0.034202069821548255 1.4174086125797039E-4 0.14802200628114504 0.00777752354416949 1.0529321122020658E-4 2.6323302805051644E-5 0.008739336531277146 0.0010792554150071173 1.0934295011329144E-4 9.921860288057928E-4 0.0 0.0 0.0013870355708815675 332.3941813351584 293.0021423118744 0.17673795557031474 0.17666090928787373 0.05744979842424657 0.057735183524042326 0.7914845937807522 0.02098104924685028 0.02899651519968305 232.51934661512698 188.71325418793623 0.7538302430451109 0.03090321326533731 0.6019629691875555 0.006667611605740815 0.1768048977542133 0.17649177194300047 0.05813195669209184 0.05742829431072343</Array>
+        </Cluster>
+        <Cluster name="cluster_1">
+            <Array n="38" type="real">2.0 6.9337564E8 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 57.0 3.0 0.79 0.67 0.21 0.33 0.05 0.39 0.0 255.0 3.0 0.01 0.09 0.22 0.0 0.18 0.67 0.05 0.33</Array>
+        </Cluster>
+        <Cluster name="cluster_2">
+            <Array n="38" type="real">5041.833333333333 5131424.0 0.0 0.0 0.0 0.0 2.333333333333333 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 2.1666666666666665 0.0 0.023333333333333334 0.0 0.0 1.0 0.0 0.215 7.5 37.0 1.0 0.0 1.0 0.12 0.0 0.003333333333333333 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_3">
+            <Array n="38" type="real">2376.0 980.5 3884161.0 0.0 0.0 0.0 0.0 1.5 1.0 9.0 0.5 1.0 4.5 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 193.0 128.5 0.505 0.01 0.005 0.005 0.0 0.0 0.385 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_4">
+            <Array n="38" type="real">103.25 2203585.6666666665 0.0 0.0 0.0 0.0 0.0 0.0 0.75 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.7083333333333333 1.625 0.0 0.0 0.041666666666666664 0.041666666666666664 0.9654166666666667 0.06958333333333333 0.0 115.16666666666666 59.041666666666664 0.33708333333333323 0.06875 0.33708333333333323 0.02958333333333333 0.03916666666666666 0.0 0.01625 8.333333333333333E-4</Array>
+        </Cluster>
+        <Cluster name="cluster_5">
+            <Array n="38" type="real">51.88235294117647 552.1176470588235 1794804.705882353 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0588235294117647 1.0588235294117647 0.0 0.0 0.0 0.0 1.0 0.0 0.0 154.35294117647058 34.23529411764706 0.21058823529411763 0.03470588235294118 0.010588235294117647 0.055882352941176466 0.0 0.0 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_6">
+            <Array n="38" type="real">863.3023255813953 673.5813953488372 614509.6279069767 0.0 0.0 0.06976744186046512 0.023255813953488372 0.046511627906976744 0.9069767441860465 27.58139534883721 0.046511627906976744 0.06976744186046512 29.83720930232558 0.046511627906976744 0.0 0.18604651162790697 0.0 0.0 0.0 1.2790697674418605 1.8372093023255813 0.03488372093023256 0.02488372093023256 0.0 0.0 0.9883720930232558 0.023255813953488372 0.03348837209302325 125.02325581395348 58.67441860465116 0.3872093023255814 0.058139534883720936 0.1167441860465116 0.025581395348837212 0.022558139534883722 0.031395348837209305 0.022790697674418603 0.01674418604651163</Array>
+        </Cluster>
+        <Cluster name="cluster_7">
+            <Array n="38" type="real">5050.894736842105 5135678.0 0.0 0.0 0.0 0.0 2.4736842105263155 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.1052631578947367 0.0 0.0 0.0 0.0 1.0 0.0 0.10526315789473684 5.473684210526315 30.57894736842105 0.9547368421052631 0.01526315789473684 1.0 0.11210526315789475 0.0 0.005789473684210526 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_8">
+            <Array n="38" type="real">5058.0 5133876.0 0.0 0.0 0.0 0.0 3.333333333333333 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 255.0 72.33333333333333 0.2833333333333333 0.09333333333333334 0.33999999999999997 0.0 0.016666666666666666 0.026666666666666665 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_9">
+            <Array n="38" type="real">5046.0 5135678.0 0.0 0.0 0.0 0.0 3.5 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 255.0 33.5 0.13 0.10500000000000001 0.33999999999999997 0.0 0.015 0.01 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_10">
+            <Array n="38" type="real">9.333333333333332 0.0 5154233.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.6666666666666665 1.6666666666666665 0.0 0.0 0.0 0.0 1.0 0.0 0.0 6.333333333333333 6.333333333333333 1.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_11">
+            <Array n="38" type="real">5039.0 5131424.0 0.0 0.0 0.0 0.0 4.0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 1.0 0.0 0.0 0.0 0.0 0.5 1.0 0.0 255.0 67.0 0.26 0.13 0.36 0.0 0.02 0.01 0.0 0.0</Array>
+        </Cluster>
+        <Cluster name="cluster_12">
+            <Array n="38" type="real">5054.5 5133876.035714285 0.0 0.0 0.0 0.0 2.7857142857142856 0.0 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.6428571428571428 0.03571428571428571 0.03571428571428571 0.0 0.0 1.0 0.0 0.003928571428571428 6.607142857142857 32.64285714285714 0.9660714285714286 0.016785714285714282 1.0 0.11821428571428567 0.019285714285714285 0.0425 0.005 7.142857142857143E-4</Array>
+        </Cluster>
+        <Cluster name="cluster_13">
+            <Array n="38" type="real">397.0 0.0 5149492.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 29.692307692307693 15.0 0.9423076923076924 0.0015384615384615387 0.9230769230769231 0.0 0.057692307692307696 0.06615384615384616 0.0 0.0</Array>
+        </Cluster>
+    </ClusteringModel>
+</PMML>
