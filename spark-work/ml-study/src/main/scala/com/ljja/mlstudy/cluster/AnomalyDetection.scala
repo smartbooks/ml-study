@@ -50,9 +50,9 @@ object AnomalyDetection {
       val data = labelsAndData.values.cache()
 
       //取不同k值观察模型优劣
-      (10 to 100 by 10)
+      (2 to 100 by 1)
         .map { k => (k, clusteringScore(data, k)) }
-        .foreach(f => println(s"k:${f._1} mean:${f._2._1} std:${f._2._2} ssd:${f._2._3}"))
+        .foreach(f => println(s"k:${f._1}\tmean:${f._2._1}\tstd:${f._2._2}\tssd:${f._2._3}"))
 
       /**
         * k	score
@@ -119,23 +119,24 @@ object AnomalyDetection {
     //设置k值
     kmeans.setK(k)
 
-    //随机数种子
-    kmeans.setSeed(Math.PI.toLong)
+    //随机数种子,初始抽样对SSD结果影响较大
+    //kmeans.setSeed(Math.PI.toLong)
 
     //最大迭代次数
-    kmeans.setMaxIterations(50)
+    //kmeans.setMaxIterations(50)
 
     //初始模式:random  k-means||
-    kmeans.setInitializationMode("k-means||")
+    //kmeans.setInitializationMode("k-means||")
 
     //每次迭代步数
-    kmeans.setInitializationSteps(2)
+    //kmeans.setInitializationSteps(2)
 
     //设置迭代过程中,质心的最小移动值,默认为1.0e-4
-    kmeans.setEpsilon(1.0e-6)
+    //kmeans.setEpsilon(1.0e-6)
 
     val model = kmeans.run(data)
 
+    //save_model
     //model.toPMML(new FileOutputStream(outputPMML))
 
     //计算样本数据到其各自质心的记录的均值,均值越小聚类越均衡
