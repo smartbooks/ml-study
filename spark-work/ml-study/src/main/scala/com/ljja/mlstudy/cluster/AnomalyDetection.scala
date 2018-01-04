@@ -11,6 +11,7 @@ import org.apache.spark.mllib.linalg._
 http://blog.csdn.net/qq1010885678/article/details/51354486
 http://blog.csdn.net/stevekangpei/article/details/76549267
 http://shiyanjun.cn/archives/1388.html
+https://www.ibm.com/developerworks/cn/opensource/os-cn-spark-practice4/
  */
 object AnomalyDetection {
 
@@ -49,9 +50,9 @@ object AnomalyDetection {
       val data = labelsAndData.values.cache()
 
       //取不同k值观察模型优劣
-      (500 to 1000 by 10)
+      (10 to 100 by 10)
         .map { k => (k, clusteringScore(data, k)) }
-        .foreach(f => println(s"k:${f._1} mean:${f._2._1} std:${f._2._2}"))
+        .foreach(f => println(s"k:${f._1} mean:${f._2._1} std:${f._2._2} ssd:${f._2._3}"))
 
       /**
         * k	score
@@ -141,12 +142,12 @@ object AnomalyDetection {
     val pos = data.map { m => distToCentrolid(m, model) }.persist()
 
     val mean = pos.mean()
-
     val std = pos.stdev()
+    val ssd = model.computeCost(data)
 
     pos.unpersist()
 
-    (mean, std)
+    (mean, std, ssd)
   }
 
 }
