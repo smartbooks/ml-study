@@ -49,7 +49,9 @@ object AnomalyDetection {
       val data = labelsAndData.values.cache()
 
       //取不同k值观察模型优劣
-      (10 to 100 by 4).map { k => (k, clusteringScore(data, k)) }.foreach(println)
+      (500 to 1000 by 10)
+        .map { k => (k, clusteringScore(data, k)) }
+        .foreach(f => println(s"k:${f._1} mean:${f._2._1} std:${f._2._2}"))
 
       /**
         * k	score
@@ -93,16 +95,14 @@ object AnomalyDetection {
     * @param model kmeans模型
     **/
   def distToCentrolid(datum: Vector, model: KMeansModel) = {
-
-    //得到该数据点的聚类中心
+    //数据点所属聚类中心
     val cluster = model.predict(datum)
 
-    //得到该聚类中心的质心
+    //数据点所属聚类中心的质心向量
     val centrolid = model.clusterCenters(cluster)
 
-    //计算距离
+    //计算数据点到质心的距离
     distance(centrolid, datum)
-
   }
 
   /**
@@ -118,13 +118,35 @@ object AnomalyDetection {
     //设置k值
     kmeans.setK(k)
 
+    //随机数种子
+    kmeans.setSeed(Math.PI.toLong)
+
+    //最大迭代次数
+    kmeans.setMaxIterations(50)
+
+    //初始模式:random  k-means||
+    kmeans.setInitializationMode("k-means||")
+
+    //每次迭代步数
+    kmeans.setInitializationSteps(2)
+
+    //设置迭代过程中,质心的最小移动值,默认为1.0e-4
+    kmeans.setEpsilon(1.0e-6)
+
     val model = kmeans.run(data)
 
-    model.toPMML(new FileOutputStream(outputPMML))
+    //model.toPMML(new FileOutputStream(outputPMML))
 
-    //计算样本数据到其各自质心的记录的平均值
-    data.map { datum => distToCentrolid(datum, model) }.mean()
+    //计算样本数据到其各自质心的记录的均值,均值越小聚类越均衡
+    val pos = data.map { m => distToCentrolid(m, model) }.persist()
+
+    val mean = pos.mean()
+
+    val std = pos.stdev()
+
+    pos.unpersist()
+
+    (mean, std)
   }
-
 
 }
