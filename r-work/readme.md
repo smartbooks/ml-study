@@ -119,6 +119,27 @@ interactive: yes
 max.input buffer size: 262144 kB
 ```
 
+# OpenBLAS加速R计算
+```
+#参考链接：http://blog.csdn.net/a358463121/article/details/42713307
+#依赖库[mingw64_dll.zip]：https://sourceforge.net/projects/openblas/files/v0.2.14/
+#OpenBLAS加速库：https://jaist.dl.sourceforge.net/project/openblas/v0.2.14/OpenBLAS-v0.2.14-Win64-int64.zip
+
+#R测试代码
+x<-matrix(1:(6000*6000),6000,6000)  
+system.time(tmp<-x%*%x)
+
+#R自带库
+  用户   系统   流逝 
+157.80   0.36 158.65
+
+#OpenBLAS库
+ 用户  系统  流逝 
+26.88  0.81  7.33
+
+#结论:只能告诉你是瞬间完成的！
+```
+
 # 参考资料
 - Rserve实现java与R的互通,https://www.cnblogs.com/mutougezi/p/6140329.html
 - R中的线性回归分析,https://www.cnblogs.com/malt927/p/6074185.html
