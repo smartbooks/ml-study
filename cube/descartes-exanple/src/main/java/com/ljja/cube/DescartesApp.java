@@ -2,6 +2,7 @@ package com.ljja.cube;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -66,7 +67,10 @@ public class DescartesApp {
 
         System.out.println("递归实现笛卡尔乘积: 共 " + recursiveResult.size() + " 个结果");
         for (List<String> list : recursiveResult) {
-            for (String string : list) {
+            Object[] sortList = list.toArray();
+            Arrays.sort(sortList);
+            //Arrays.sort(sortList, Collections.reverseOrder());
+            for (Object string : sortList) {
                 System.out.print(string + "|");
             }
             System.out.println();
