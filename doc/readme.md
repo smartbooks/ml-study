@@ -3,4 +3,4 @@
 
 $$E_A = \frac{1}{1+10^(R_B-R_A)/400}$$
 
-$$\sum_{i=0}N\int_{a}{b}g(t,i)\text{d}t$$
+$\sum_{i=0}N\int_{a}{b}g(t,i)\text{d}t$
