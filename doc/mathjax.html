@@ -4,20 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>数学公式示例</title>
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
 <body>
   <h1>数学公式</h1>
 
+  <h3>信息熵</h3>
+  <p>
+    $$H=-\sum_{i=1}^{n}{p(x_i)\log_2p(x_i)}$$
+    计算过程:<br>
+    data_len:                                #样本总数<br>
+    label_count:                             #每个类别样本数<br>
+    shannonEnt:=0                            #香农熵<br>
+    for key in label_count                   #迭代计算每个类别<br>
+        prob = label_count[key] / data_len   #每个类别样本数占总样本数概率<br>
+        shannonEnt -= prob * log(prob, 2)    #计算香农熵,以2为底<br>
+    return shannonEnt                        #迭代结束返回香农熵<br>
+  </p>
+  <hr>
+
   <h3>欧氏距离</h3>
   <p>
-    二维平面上两点A(x1,y1)与B(x2,y2)间的欧氏距离:
+    二维平面上两点A(x1,y1)与B(x2,y2)间的欧氏距离:<br>
     $$dist(A,B)=\sqrt{(x1-x2)^2+(y1-y2)^2}$$
-    三维空间两点A(x1,y1,z1)与B(x2,y2,z2)间的欧氏距离:
+    三维空间两点A(x1,y1,z1)与B(x2,y2,z2)间的欧氏距离:<br>
     $$dist(A,B)=\sqrt{(x1-x2)^2+(y1-y2)^2+(z1-z2)^2}$$
-    两个n维向量A(x1,x2,…,xn)与B(y1,y2,…,yn)间的欧氏距离:
+    两个n维向量A(x1,x2,…,xn)与B(y1,y2,…,yn)间的欧氏距离:<br>
     $$dist(A,B)=\sqrt{\sum_{i=1}^{n}{(x_i-y_i)^2}}$$
   </p>
   <hr>
