@@ -22,33 +22,37 @@ import java.util.List;
  * 查询过程:
  * SELECT price_sum,price_avg FROM cube WHERE 省份='北京' AND 年份=2017 AND 一级分类='水果'
  * <p>
- * 分解过程:
+ * 分解过程A:
  * key LIKE 'cube%hash("2017")%hash("北京")%hash("水果")%'
+ * <p>
+ * 分解过程B:
+ * table_name:cube + dim_column
  */
 public class DescartesApp {
 
     public static void main(String[] args) {
         List<String> list1 = new ArrayList<>();
-        list1.add("北京");
-        list1.add("上海");
-        list1.add("广州");
-        list1.add("深圳");
+        list1.add("国家");
+        list1.add("省份");
+        list1.add("城市");
+        list1.add("区县");
 
         List<String> list2 = new ArrayList<>();
-        list2.add("果汁");
-        list2.add("牛奶");
-        list2.add("牙膏");
-        list2.add("肥皂");
+        list2.add("时");
+        list2.add("日");
+        list2.add("周");
+        list2.add("月");
+        list2.add("季");
+        list2.add("年");
 
         List<String> list3 = new ArrayList<>();
-        list3.add("2013年");
-        list3.add("2014年");
-        list3.add("2015年");
+        list3.add("一级分类");
+        list3.add("二级分类");
+        list3.add("三级分类");
+        list3.add("四级分类");
 
         List<String> list4 = new ArrayList<>();
-        list4.add("人民币");
-        list4.add("美元");
-        list4.add("英镑");
+        list4.add("机型");
 
         List<List<String>> dimValue = new ArrayList<>();
         dimValue.add(list1);
@@ -68,15 +72,15 @@ public class DescartesApp {
             System.out.println();
         }
 
-        List<List<String>> circulateResult = new ArrayList<>();
-        circulate(dimValue, circulateResult);
-        System.out.println("循环实现笛卡尔乘积: 共 " + circulateResult.size() + " 个结果");
-        for (List<String> list : circulateResult) {
-            for (String string : list) {
-                System.out.print(string + " ");
-            }
-            System.out.println();
-        }
+        //List<List<String>> circulateResult = new ArrayList<>();
+        //circulate(dimValue, circulateResult);
+        //System.out.println("循环实现笛卡尔乘积: 共 " + circulateResult.size() + " 个结果");
+        //for (List<String> list : circulateResult) {
+        //    for (String string : list) {
+        //        System.out.print(string + " ");
+        //    }
+        //    System.out.println();
+        //}
     }
 
     /**
