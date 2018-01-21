@@ -8,27 +8,47 @@ import java.util.List;
  * 参考链接:
  * http://blog.csdn.net/buptdavid/article/details/45918647
  * https://www.cnblogs.com/zhijianliutang/archive/2012/02/16/2355058.html
+ * <p>
+ * 宽表结构:
+ * [事实],[度量],[地区维度],[时间维度],[类别维度],[机型维度]
+ * tid,price,[sum,count,avg,max,min,mean,std],[国家,省份,城市,区县],[时,日,周,月,季,年],[一级分类,二级分类,三级分类,四级分类],[机型]
+ * <p>
+ * 计算过程:
+ * cube_cubeid:
+ * 000000001_000000001:price_sum,price_count,price_avg,price_max,price_min,price_mean,price_std
+ * 000000001_000000002:price_sum,price_count,price_avg,price_max,price_min,price_mean,price_std
+ * 000000001_000000003:price_sum,price_count,price_avg,price_max,price_min,price_mean,price_std
+ * <p>
+ * 查询过程:
+ * SELECT price_sum,price_avg FROM cube WHERE 省份='北京' AND 年份=2017 AND 一级分类='水果'
+ * <p>
+ * 分解过程:
+ * key LIKE 'cube%hash("2017")%hash("北京")%hash("水果")%'
  */
 public class DescartesApp {
 
     public static void main(String[] args) {
         List<String> list1 = new ArrayList<>();
-        list1.add("1");
-        list1.add("2");
+        list1.add("北京");
+        list1.add("上海");
+        list1.add("广州");
+        list1.add("深圳");
 
         List<String> list2 = new ArrayList<>();
-        list2.add("a");
-        list2.add("b");
+        list2.add("果汁");
+        list2.add("牛奶");
+        list2.add("牙膏");
+        list2.add("肥皂");
 
         List<String> list3 = new ArrayList<>();
-        list3.add("3");
-        list3.add("4");
-        list3.add("5");
+        list3.add("2013年");
+        list3.add("2014年");
+        list3.add("2015年");
 
         List<String> list4 = new ArrayList<>();
-        list4.add("c");
-        list4.add("d");
-        list4.add("e");
+        list4.add("人民币");
+        list4.add("美元");
+        list4.add("英镑");
 
         List<List<String>> dimValue = new ArrayList<>();
         dimValue.add(list1);
@@ -43,7 +63,7 @@ public class DescartesApp {
         System.out.println("递归实现笛卡尔乘积: 共 " + recursiveResult.size() + " 个结果");
         for (List<String> list : recursiveResult) {
             for (String string : list) {
-                System.out.print(string + " ");
+                System.out.print(string + "|");
             }
             System.out.println();
         }
