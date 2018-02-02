@@ -12,13 +12,19 @@ match (n) delete n
 CREATE (u:User{cf1_REG_NUMUSERID:'289215'}) return n
 
 #合并操作,节点存在就覆盖,不存在就创建
-MERGE (gp2:GoogleProfile2{ Id: 201402,Name:"Nokia"})
+MERGE(gp2:GoogleProfile2{ Id: 201402,Name:"Nokia"})
 
 #创建关系289215->2780446
 MATCH (a:User{cf1_REG_NUMUSERID:'289215'}),(b:User{cf1_REG_NUMUSERID:'2780446'}) CREATE (a)-[:init]->(b)
 
 #查询289215认识的人
 match (n:User{cf1_REG_NUMUSERID:"289215"})-[:init]-(b) return n,b
+
+#查询全部关系
+match (n)-[:USED]-(b) return n,b
+match (n)-[:UNUSED]-(b) return n,b
+match (n)-[:NEWREG]-(b) return n,b
+match (n)-[]-(b) return n,b
 
 #统计数据总数
 match (n) return count(n)
