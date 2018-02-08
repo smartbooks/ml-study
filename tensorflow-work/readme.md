@@ -4,6 +4,13 @@
 ## 必备软件
 - python-3.6.4-amd64,https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe
 - IDEA PyCharm,https://download.jetbrains.8686c.com/python/pycharm-professional-2017.3.1.exe
+- https://github.com/tensorflow/tensorflow
+- https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+
+## 特殊说明
+```
+tensorflow-gpu==1.5.0 需要 CUDA Toolkit 9.0
+```
 
 ## PIP阿里云镜像配置
 ```shell
@@ -40,4 +47,12 @@ pip install matplotlib
 ## 环境测试
 ```shell
 python ./main.py
+```
+
+## 常见错误
+```
+#futures requires Python '>=2.6, <3' but the running Python is 3.5.3
+#https://github.com/tensorflow/tensorflow/issues/16478
+pip install futures==3.1.1
+pip install tensorflow-gpu==1.5.0
 ```
