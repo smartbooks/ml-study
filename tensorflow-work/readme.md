@@ -6,6 +6,7 @@
 - IDEA PyCharm,https://download.jetbrains.8686c.com/python/pycharm-professional-2017.3.1.exe
 - https://github.com/tensorflow/tensorflow
 - https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+- http://www.tensorfly.cn/tfdoc/get_started/introduction.html
 
 ## 特殊说明
 ```
