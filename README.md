@@ -12,3 +12,6 @@
 0. 对信息的需求无所不在. The need for information crosses all borders.
 0. 不穿西装也可以严肃认真. You can be serious without a suit.
 0. 仅有优秀是远远不够的. Great just isn't good enough.
+
+# 标准算法
+- 梯度推进:https://en.wikipedia.org/wiki/Gradient_boosting
