@@ -148,3 +148,5 @@ http://spark.apache.org/docs/latest/quick-start.html
 
 # 参考资料
 - http://dblab.xmu.edu.cn/blog/spark/
+- https://docs.databricks.com/
+- https://github.com/RedisLabs/spark-redis
