@@ -26,3 +26,17 @@
 - 贝叶斯分类:https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 - K最近邻:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - AdaBoost:https://en.wikipedia.org/wiki/AdaBoost
+
+# 推荐系统
+```
+0、推荐候选集
+1、决策树二次筛选,决策树IF-THEN规则
+2、点击率预估排序
+3、推荐结果展示
+4、推荐结果反馈
+平台组成:
+离线处理:偏好矩阵计算、推荐候选集、内容特征(物)，偏好特征(人)，环境特征(地)
+混合系统:召回策略、倒排索引、混合策略、点击预估、置顶加权
+实验平台:流量分桶、桶分组、实验时间、实验组、特殊条件、实验数据对比/置信度/评估
+反馈系统:实验对比、特征拟合
+```
