@@ -14,4 +14,15 @@
 0. 仅有优秀是远远不够的. Great just isn't good enough.
 
 # 标准算法
+- 机器学习:https://en.wikipedia.org/wiki/Portal:Machine_learning
 - 梯度推进:https://en.wikipedia.org/wiki/Gradient_boosting
+- PR算法:https://en.wikipedia.org/wiki/PageRank
+- Word2vec:https://en.wikipedia.org/wiki/Word2vec
+- tf–idf:https://en.wikipedia.org/wiki/Tf%E2%80%93idf
+- k-means:https://en.wikipedia.org/wiki/K-means_clustering
+- 随机森林:https://en.wikipedia.org/wiki/Random_forest
+- 决策树:https://en.wikipedia.org/wiki/Decision_tree_learning
+- 支持向量机:https://en.wikipedia.org/wiki/Support_vector_machine
+- 贝叶斯分类:https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+- K最近邻:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+- AdaBoost:https://en.wikipedia.org/wiki/AdaBoost
