@@ -48,6 +48,9 @@ pip install numpy
 
 # 图形库
 pip install matplotlib
+
+# OpenCV支持
+pip install opencv-python
 ```
 
 ## 环境测试
