@@ -11,6 +11,7 @@
 - Download cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0
 - cuDNN v7.0.5 Library for Windows 10
 - https://pypi.python.org/pypi?%3Aaction=search&term=tensorflow&submit=search
+- https://opencv.org/releases.html
 
 ## 特殊说明
 ```
