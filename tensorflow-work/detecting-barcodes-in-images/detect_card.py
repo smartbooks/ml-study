@@ -31,25 +31,28 @@ cv2.imshow("gradient", gradient)
 cv2.waitKey(0)
 
 # blur and threshold the image
-blurred = cv2.blur(gradient, (12, 1))
+blurred = cv2.blur(gradient, (30,1))
+(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)
+
+blurred = cv2.blur(thresh, (1,1))
 (_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)
 
 cv2.imshow("thresh", thresh)
 cv2.waitKey(0)
 
 # construct a closing kernel and apply it to the thresholded image
-kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (70, 48))
 closed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
 
 cv2.imshow("closed", closed)
 cv2.waitKey(0)
 
 # perform a series of erosions and dilations
-closed = cv2.erode(closed, None, iterations=4)
-closed = cv2.dilate(closed, None, iterations=4)
+#closed = cv2.erode(closed, None, iterations=4)
+#closed = cv2.dilate(closed, None, iterations=4)
 
-cv2.imshow("erode&dilate", closed)
-cv2.waitKey(0)
+#cv2.imshow("erode&dilate", closed)
+#cv2.waitKey(0)
 
 # find the contours in the thresholded image, then sort the contours
 # by their area, keeping only the largest one
