@@ -21,7 +21,7 @@ def gradAscent(dataMatIn, classLabels):
     labelMat = nm.mat(classLabels).transpose()
     m, n = nm.shape(dataMatrix)
     alpha = 0.001
-    maxCycles = 5
+    maxCycles = 500
     weights = nm.ones((n, 1))
 
     print("dataMatrix:\n", dataMatrix, "\nlabelMat:\n", labelMat)
@@ -31,7 +31,7 @@ def gradAscent(dataMatIn, classLabels):
         h = sigmoid(dataMatrix * weights)
         error = (labelMat - h)
         weights = weights + alpha * dataMatrix.transpose() * error
-        print("iter:", k, "\nh:\n", h, "\nerror:\n", error, "\nweights:\n", weights)
+        print("===========iter:", k, "\nh:\n", h, "\nerror:\n", error, "\nweights:\n", weights)
 
     return weights
 
