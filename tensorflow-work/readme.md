@@ -12,6 +12,7 @@
 - cuDNN v7.0.5 Library for Windows 10
 - https://pypi.python.org/pypi?%3Aaction=search&term=tensorflow&submit=search
 - https://opencv.org/releases.html
+- https://zhuanlan.zhihu.com/p/26514493
 
 ## 特殊说明
 ```
@@ -55,6 +56,8 @@ pip install opencv-python
 
 # 机器学习库可以进行归一化处理
 pip install sklearn
+
+pip install scipy
 ```
 
 ## 环境测试
