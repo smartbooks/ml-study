@@ -52,6 +52,9 @@ pip install matplotlib
 
 # OpenCV支持
 pip install opencv-python
+
+# 机器学习库可以进行归一化处理
+pip install sklearn
 ```
 
 ## 环境测试
