@@ -13,6 +13,7 @@
 - https://pypi.python.org/pypi?%3Aaction=search&term=tensorflow&submit=search
 - https://opencv.org/releases.html
 - https://zhuanlan.zhihu.com/p/26514493
+- https://www.cnblogs.com/chaosimple/p/4153167.html
 
 ## 特殊说明
 ```
