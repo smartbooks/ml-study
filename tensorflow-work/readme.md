@@ -14,6 +14,8 @@
 - https://opencv.org/releases.html
 - https://zhuanlan.zhihu.com/p/26514493
 - https://www.cnblogs.com/chaosimple/p/4153167.html
+- http://scikit-learn.org/stable
+- https://github.com/scikit-learn/scikit-learn
 
 ## 特殊说明
 ```
@@ -59,6 +61,7 @@ pip install opencv-python
 pip install sklearn
 
 pip install scipy
+pip install scikit-learn
 ```
 
 ## 环境测试
