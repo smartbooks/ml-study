@@ -62,6 +62,10 @@ pip install sklearn
 
 pip install scipy
 pip install scikit-learn
+
+# 编译scikit-learn库
+pip install Cython
+python setup.py install
 ```
 
 ## 环境测试
