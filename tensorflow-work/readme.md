@@ -19,7 +19,7 @@
 - http://www.apachecn.org/
 - https://github.com/apachecn/MachineLearning
 - https://github.com/apachecn/scikit-learn-doc-zh
-- http://www.apachecn.org/map/179.html
+
 
 ## 特殊说明
 ```
