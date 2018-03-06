@@ -25,6 +25,13 @@ for x in range(501, 2216):
         elif id == 'pwrq':
             pwrq = doc.text
 
+        """
+        游戏名称 神魔录
+        公司名称 北京灵动时空科技有限责任公司
+        公示类型 国产游戏
+        备案文号 文网游备字〔2017〕Ｍ-RPG 0956 号
+        批文发布日期 2017-07-25
+        """
         if "RPG 0956" in bawh:
             print(x, xh, bawh, yymc, pwrq)
             browser.quit()
