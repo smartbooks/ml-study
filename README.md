@@ -14,6 +14,8 @@
 0. 仅有优秀是远远不够的. Great just isn't good enough.
 
 # 标准算法
+- [推荐必读1]:http://www.apachecn.org/map/179.html
+- [推荐必读2]:http://www.apachecn.org/map/145.html
 - 机器学习:https://en.wikipedia.org/wiki/Portal:Machine_learning
 - 梯度推进:https://en.wikipedia.org/wiki/Gradient_boosting
 - PR算法:https://en.wikipedia.org/wiki/PageRank

@@ -16,6 +16,10 @@
 - https://www.cnblogs.com/chaosimple/p/4153167.html
 - http://scikit-learn.org/stable
 - https://github.com/scikit-learn/scikit-learn
+- http://www.apachecn.org/
+- https://github.com/apachecn/MachineLearning
+- https://github.com/apachecn/scikit-learn-doc-zh
+- http://www.apachecn.org/map/179.html
 
 ## 特殊说明
 ```
