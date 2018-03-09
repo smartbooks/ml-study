@@ -47,7 +47,7 @@
 - JavaScript
 - C#
 
-## 书籍相关
+## 读书清单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
 
 ## 标准算法
