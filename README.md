@@ -1,7 +1,7 @@
 # ml-study
 知识体系整理
 
-# 技能体系
+## 技能体系
 - 负载均衡:[nginx](http://nginx.org),[lvs](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
 - 邮件系统:[james](http://james.apache.org)
@@ -25,7 +25,7 @@
 - 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org)
 - 资源隔离:[Docker](https://www.docker.com)
 
-# 支撑体系
+## 支撑体系
 - 源码构建:[jenkins](https://jenkins.io/),[maven](https://maven.apache.org)
 - 源码管理:[Gogs](https://gogs.io),[gitlab](https://gitlab.com),[visualsvn](https://www.visualsvn.com/server)
 - 依赖关系:[mvn-repo](http://mvnrepository.com),[nexus](http://www.sonatype.org/nexus/go)
@@ -33,8 +33,9 @@
 - 测试用例:[TestLink](http://www.testlink.org)
 - 缺陷管理:[jira](https://www.atlassian.com/software/jira)
 - 用户管理:[crowd](https://www.atlassian.com/software/crowd)
+- 操作系统:[CentOS](https://www.centos.org),[Ubuntu](https://www.ubuntu.com)
 
-# 编程语言
+## 编程语言
 - Java:https://docs.oracle.com/javase/specs
 - Scala:http://www.scala-lang.org
 - Python:https://www.python.org
@@ -43,7 +44,7 @@
 - JavaScript
 - C#
 
-# 标准算法
+## 标准算法
 - 推荐必读1:http://www.apachecn.org/map/179.html
 - 推荐必读2:http://www.apachecn.org/map/145.html
 - 机器学习:https://en.wikipedia.org/wiki/Portal:Machine_learning
@@ -59,18 +60,52 @@
 - K最近邻:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - AdaBoost:https://en.wikipedia.org/wiki/AdaBoost
 
-# 算法选择
+## 算法选择
 ![ml_estimator_map](img/ml_map.png)
 
-# git commit
-```shell
-git config --global user.name smartbooks
-git config --global user.email smartbooks@qq.com
-git remote set-url origin https://smartbooks@github.com/smartbooks/ml-study.git
-git push
-```
+## 常用工具
+### 开发工具
+- IntelliJ IDEA
+- JetBrains WebStorm
+- JetBrains PyCharm
+- Xmanager Enterprise 4
+- Atom
+- octave
+- RStudio
+- Axure RP 8
+- Power BI Desktop
+- Visual Studio 2017
+- Android Studio
 
-# 推荐系统
+### 数据库工具
+- NoSQL Manager for MongoDB
+- Navicat Premium 12
+- JetBrains DataGrip
+- Sqldeveloper
+- SqlDbx
+
+### 版本控制
+- SourceTree
+- TortoiseGit
+- TortoiseSVN
+- Git
+
+### 其他工具
+- 7z
+- LibreOffice
+- VLC media player
+- VMware Workstation Pro
+- Foxmail
+- MarkdownPad 2
+- Postman
+- Notepad++
+- 网易有道词典
+- 亿图图示专家
+- Google Chrome
+- Chrome Extensions Markdown Preview Plus
+
+## 其他随记
+### 推荐系统
 ```
 0、推荐候选集
 1、决策树二次筛选,决策树IF-THEN规则
@@ -84,7 +119,7 @@ git push
 反馈系统:实验对比、特征拟合
 ```
 
-# Google
+### Google
 0. 一切以用户为中心，其他一切纷至沓来. Focus on the user and all else will follow.
 0. 把一件事做到极致. It's best to do one thing really, really well.
 0. 快比慢好. Fast is better than slow.
@@ -96,43 +131,10 @@ git push
 0. 不穿西装也可以严肃认真. You can be serious without a suit.
 0. 仅有优秀是远远不够的. Great just isn't good enough.
 
-# 常用工具
-## 开发工具
-- IntelliJ IDEA
-- JetBrains WebStorm
-- JetBrains PyCharm
-- Xmanager Enterprise 4
-- Atom
-- octave
-- RStudio
-- Axure RP 8
-- Power BI Desktop
-- Visual Studio 2017
-- Android Studio
-
-## 数据库工具
-- NoSQL Manager for MongoDB
-- Navicat Premium 12
-- JetBrains DataGrip
-- Sqldeveloper
-- SqlDbx
-
-## 版本控制
-- SourceTree
-- TortoiseGit
-- TortoiseSVN
-- Git
-
-## 其他工具
-- 7z
-- LibreOffice
-- VLC media player
-- VMware Workstation Pro
-- Foxmail
-- MarkdownPad 2
-- Postman
-- Notepad++
-- 网易有道词典
-- 亿图图示专家
-- Google Chrome
-- Chrome Extensions Markdown Preview Plus
+### git commit
+```shell
+git config --global user.name smartbooks
+git config --global user.email smartbooks@qq.com
+git remote set-url origin https://smartbooks@github.com/smartbooks/ml-study.git
+git push
+```
