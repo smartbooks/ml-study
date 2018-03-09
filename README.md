@@ -43,9 +43,8 @@
 - Scala:http://www.scala-lang.org
 - Python:https://www.python.org
 - GoLang:https://golang.org
-- C/C++
-- JavaScript
-- C#
+- R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
+- C/C++:https://en.wikipedia.org/wiki/ANSI_C
 
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
