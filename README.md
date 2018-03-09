@@ -2,7 +2,7 @@
 知识体系整理
 
 ## 风向标
-- 区块链:[bitcoin](https://bitcoin.org/en)
+    [bitcoin](https://bitcoin.org/en)
 
 ## 技能体系
 - 负载均衡:[nginx](http://nginx.org),[lvs](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
