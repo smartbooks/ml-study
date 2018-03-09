@@ -49,6 +49,23 @@
 
 ## 读书清单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
+- [线性代数(原书第9版)](https://www.amazon.cn/gp/product/B015H5F99Y)
+- [数学之美(第二版)](https://www.amazon.cn/gp/product/B00P6OJ09C)
+- [Python编程 从入门到实践](https://www.amazon.cn/gp/product/B01ION3VWI)
+- [R语言实战(第2版)](https://www.amazon.cn/gp/product/B01FSXCBMS)
+- [机器学习实战](https://www.amazon.cn/gp/product/B00D747PTK)
+- [机器学习](https://www.amazon.cn/gp/product/B01ARKEV1G)
+- [Go语言实战](https://www.amazon.cn/gp/product/B06XCCL7VV)
+- [数据仓库工具箱(第3版):维度建模权威指南](https://www.amazon.cn/gp/product/B00RT6LB9W)
+- [Scala编程实战](https://www.amazon.cn/gp/product/B01H6ZJFAW)
+- [MongoDB权威指南(第2版)](https://www.amazon.cn/gp/product/B00HLX035Q)
+- [Elasticsearch服务器开发(第2版)](https://www.amazon.cn/gp/product/B00U6Y5DGG)
+- [Mahout实战](https://www.amazon.cn/gp/product/B00IWYN9KO)
+- [Java编程思想(第4版)](https://www.amazon.cn/gp/product/B0011F7WU4)
+- [HBase权威指南](https://www.amazon.cn/gp/product/B00F4AUYIO)
+- [Hive编程指南](https://www.amazon.cn/gp/product/B00GXV27Q0)
+- [Hadoop权威指南(第3版)(修订版)](https://www.amazon.cn/gp/product/B00OUFXPDA)
+- [Spark大数据处理技术](https://www.amazon.cn/gp/product/B00QUG5C9C)
 
 ## 标准算法
 - 推荐必读1:http://www.apachecn.org/map/179.html
