@@ -46,6 +46,13 @@
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 - C/C++:https://en.wikipedia.org/wiki/ANSI_C
 
+## 公开课
+- EDX:https://www.edx.org
+- Coursera:https://www.coursera.org
+- TED:https://www.ted.com
+- 网易:https://open.163.com
+- 更多推荐:https://www.zhihu.com/question/27952897
+
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
 - [线性代数(原书第9版)](https://www.amazon.cn/gp/product/B015H5F99Y)
