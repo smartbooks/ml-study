@@ -1,5 +1,5 @@
 # ml-study
-知识体系整理
+知识体系整理,QQ群:652055325(大数据架构师)
 
 ## 风向标
 - 区块链:[bitcoin](https://bitcoin.org/en)
