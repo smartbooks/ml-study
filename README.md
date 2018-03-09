@@ -47,6 +47,8 @@
 - C/C++:https://en.wikipedia.org/wiki/ANSI_C
 
 ## 公开课
+- Andrew Ng:http://open.163.com/special/opencourse/machinelearning.html
+- Andrew Ng Home:http://www.andrewng.org/
 - EDX:https://www.edx.org
 - Coursera:https://www.coursera.org
 - TED:https://www.ted.com
