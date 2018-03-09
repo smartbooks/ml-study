@@ -4,6 +4,12 @@
 ## 风向标
 - 区块链:[bitcoin](https://bitcoin.org/en)
 
+## 攻坚课题
+- 数据仓库平台(基础层):采集/清洗/维度/建模/查询/用户画像/标签系统/自然语言
+- 数据分析平台(业务线):定制报表/自助提数/样本特征/分析报告
+- 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验
+- 深度学习平台(研究线):特征工程/...
+
 ## 技能体系
 - 负载均衡:[nginx](http://nginx.org),[lvs](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
