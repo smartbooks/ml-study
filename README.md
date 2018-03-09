@@ -1,8 +1,8 @@
 # ml-study
 知识体系整理
 
-# 知识体系
-- 负载均衡:[nginx](http://nginx.org),[LVS](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
+# 技能体系
+- 负载均衡:[nginx](http://nginx.org),[lvs](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
 - 邮件系统:[james](http://james.apache.org)
 - 监控系统:[zabbix](https://www.zabbix.com)
@@ -20,9 +20,19 @@
 - 倒排索引:[Lucene](https://lucene.apache.org/),[Elasticsearch](https://www.elastic.co/cn/products/elasticsearch)
 - 数据仓库:[presto](https://github.com/prestodb/presto),[kylin](http://kylin.apache.org),[hive](http://hive.apache.org)
 - 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com)
-- 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org)
+- 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[tensorflow](https://github.com/tensorflow),[caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CUDA](https://developer.nvidia.com/cuda-downloads)
 - 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org)
+- 资源隔离:[Docker](https://www.docker.com)
+
+# 支撑体系
+- 源码构建:[jenkins](https://jenkins.io/),[maven](https://maven.apache.org)
+- 源码管理:[Gogs](https://gogs.io),[gitlab](https://gitlab.com),[visualsvn](https://www.visualsvn.com/server)
+- 依赖关系:[mvn-repo](http://mvnrepository.com),[nexus](http://www.sonatype.org/nexus/go)
+- 知识管理:[confluence](https://www.atlassian.com/software/confluence)
+- 测试用例:[TestLink](http://www.testlink.org)
+- 缺陷管理:[jira](https://www.atlassian.com/software/jira)
+- 用户管理:[crowd](https://www.atlassian.com/software/crowd)
 
 # 编程语言
 - Java:https://docs.oracle.com/javase/specs
@@ -85,3 +95,44 @@ git push
 0. 对信息的需求无所不在. The need for information crosses all borders.
 0. 不穿西装也可以严肃认真. You can be serious without a suit.
 0. 仅有优秀是远远不够的. Great just isn't good enough.
+
+# 常用工具
+## 开发工具
+- IntelliJ IDEA
+- JetBrains WebStorm
+- JetBrains PyCharm
+- Xmanager Enterprise 4
+- Atom
+- octave
+- RStudio
+- Axure RP 8
+- Power BI Desktop
+- Visual Studio 2017
+- Android Studio
+
+## 数据库工具
+- NoSQL Manager for MongoDB
+- Navicat Premium 12
+- JetBrains DataGrip
+- Sqldeveloper
+- SqlDbx
+
+## 版本控制
+- SourceTree
+- TortoiseGit
+- TortoiseSVN
+- Git
+
+## 其他工具
+- 7z
+- LibreOffice
+- VLC media player
+- VMware Workstation Pro
+- Foxmail
+- MarkdownPad 2
+- Postman
+- Notepad++
+- 网易有道词典
+- 亿图图示专家
+- Google Chrome
+- Chrome Extensions Markdown Preview Plus
