@@ -47,7 +47,7 @@
 - JavaScript
 - C#
 
-## 读书清单
+## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
 - [线性代数(原书第9版)](https://www.amazon.cn/gp/product/B015H5F99Y)
 - [数学之美(第二版)](https://www.amazon.cn/gp/product/B00P6OJ09C)
