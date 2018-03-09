@@ -10,7 +10,7 @@
 - 分布式内存文件系统:[tachyon](https://www.alluxio.org)
 - 倒排索引:[Lucene](https://lucene.apache.org/),[Elasticsearch](https://www.elastic.co/cn/products/elasticsearch)
 - 中文分词:[Jcseg](https://github.com/lionsoul2014/jcseg)
-- 高速缓存:[redis](https://redis.io),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
+- 高速缓存:[redis](https://redis.io),[memcached](https://www.memcached.org),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
 - 负载均衡:[nginx](http://nginx.org),[LVS](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
 - 数据仓库:[presto](https://github.com/prestodb/presto),[kylin](http://kylin.apache.org),[hive](http://hive.apache.org)
