@@ -53,6 +53,7 @@
 - Coursera:https://www.coursera.org
 - TED:https://www.ted.com
 - 网易:https://open.163.com
+- Google edu:https://ai.google/education/
 - 更多推荐:https://www.zhihu.com/question/27952897
 
 ## 推荐书单
