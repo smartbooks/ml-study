@@ -31,7 +31,7 @@
 - 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com)
 - 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[tensorflow](https://github.com/tensorflow),[caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CUDA](https://developer.nvidia.com/cuda-downloads)
-- 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org)
+- 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en)
 - 资源隔离:[Docker](https://www.docker.com)
 
 ## 支撑体系
@@ -51,6 +51,7 @@
 - GoLang:https://golang.org
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 - C/C++:https://en.wikipedia.org/wiki/ANSI_C
+- PHP:http://www.php.net
 
 ## 公开课
 - Andrew Ng:http://open.163.com/special/opencourse/machinelearning.html
@@ -104,8 +105,9 @@
 ## 常用工具
 ### 开发工具
 - IntelliJ IDEA
-- JetBrains WebStorm
 - JetBrains PyCharm
+- JetBrains WebStorm
+- JetBrains PhpStorm
 - Xmanager Enterprise 4
 - Atom
 - octave
