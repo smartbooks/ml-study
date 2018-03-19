@@ -1,5 +1,5 @@
 # ml-study
-知识体系整理,QQ群:652055325(大数据架构师)
+知识体系整理
 
 ## 概念
 - 深度学习:自动驾驶
@@ -179,5 +179,10 @@
 git config --global user.name smartbooks
 git config --global user.email smartbooks@qq.com
 git remote set-url origin https://smartbooks@github.com/smartbooks/ml-study.git
-git push
+git push origin [branch]
+
+git tag
+git tag -a v0.1 -m 'create message'
+git push origin v0.1
+git push origin --tags
 ```
