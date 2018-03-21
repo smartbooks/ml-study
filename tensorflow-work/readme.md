@@ -91,3 +91,7 @@ pip uninstall tensorflow-gpu==1.5.0
 - https://www.anaconda.com
 - https://www.jianshu.com/p/2ea7a0632239
 - https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
+- 参数服务器Petuum/Bosen:https://github.com/sailing-pmls/bosen
+- 参数服务器:https://github.com/cnkuangshi/LightCTR
+- 参数服务器:https://github.com/dmlc/ps-lite
+- 持续构建:https://travis-ci.org
