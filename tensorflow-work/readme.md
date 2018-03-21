@@ -85,3 +85,9 @@ pip install futures==3.1.1
 pip install tensorflow-gpu==1.5.0
 pip uninstall tensorflow-gpu==1.5.0
 ```
+
+## 扩展阅读
+- 机器学习资源大全:http://tensorfly.cn/tfdoc/mltools.html
+- https://www.anaconda.com
+- https://www.jianshu.com/p/2ea7a0632239
+- https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
