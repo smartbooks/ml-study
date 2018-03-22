@@ -95,3 +95,4 @@ pip uninstall tensorflow-gpu==1.5.0
 - 参数服务器:https://github.com/cnkuangshi/LightCTR
 - 参数服务器:https://github.com/dmlc/ps-lite
 - 持续构建:https://travis-ci.org
+- https://github.com/dmlc
