@@ -1,6 +1,5 @@
 # encoding:utf-8
 import csv
-import numpy as nm
 
 csv_data = csv.reader(open("data/simple.csv", encoding="utf-8"))
 
