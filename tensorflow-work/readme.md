@@ -19,6 +19,8 @@
 - http://www.apachecn.org/
 - https://github.com/apachecn/MachineLearning
 - https://github.com/apachecn/scikit-learn-doc-zh
+- CUDA:NVIDIA公司的并行计算架构，该架构通过利用GPU的处理能力,可大幅提升计算性能。
+- cuDNN for CUDA:专门针对深度神经网络中的基础操作而设计基于GPU的加速库，cuDNN只是NVIDIA深度神经网络软件开发包中的其中一种加速库.
 
 
 ## 特殊说明
