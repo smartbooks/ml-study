@@ -111,6 +111,14 @@ jupyter notebook password
 
 #启动服务
 jupyter notebook
+
+vim ~/.bashrc
+export SPARK2_HOME=/opt/cloudera/parcels/SPARK2-2.2.0.cloudera2-1.cdh5.12.0.p0.232957/lib/spark2
+export PYTHONPATH=$SPARK2_HOME/python/:$SPARK2_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH
+source ~/.bashrc
+
+pyspark
+
 ```
 
 ## 常见错误
