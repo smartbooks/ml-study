@@ -19,8 +19,13 @@
 - http://www.apachecn.org/
 - https://github.com/apachecn/MachineLearning
 - https://github.com/apachecn/scikit-learn-doc-zh
-- CUDA:NVIDIA公司的并行计算架构，该架构通过利用GPU的处理能力,可大幅提升计算性能。
-- cuDNN for CUDA:专门针对深度神经网络中的基础操作而设计基于GPU的加速库，cuDNN只是NVIDIA深度神经网络软件开发包中的其中一种加速库.
+- CUDA:GPU并行计算平台
+- cuDNN:CUDA平台下面向深度学习库,用于训练模型
+- TensorRT:推理引擎,即加载深度学习模型到GPU,并对新数据做出预测
+- DeepStream SDK:视频分析,包括图像分类、目标检测、识别和跟踪等
+- cuBLAS:一个基于GPU的BLAS(向量和矩阵计算)库
+- cuSPARSE:稀疏矩阵和向量计算库
+- NCCL:可以理解为GPU集群模式协调管理库
 
 
 ## 特殊说明
