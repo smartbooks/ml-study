@@ -84,6 +84,19 @@ python setup.py install
 python ./main.py
 ```
 
+## jupyter
+```shell
+#详细使用手册:http://datascience-enthusiast.com
+
+pip install --upgrade pip
+pip install jupyter
+
+jupyter notebook
+#OR
+jupyter notebook --ip=0.0.0.0 --port=8888 --notebook-dir=/data/bigwork/smartbooks
+
+```
+
 ## 常见错误
 ```
 #futures requires Python '>=2.6, <3' but the running Python is 3.5.3
