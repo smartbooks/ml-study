@@ -88,13 +88,26 @@ python ./main.py
 ```shell
 #详细使用手册:http://datascience-enthusiast.com
 
+yum -y install python-devel
 pip install --upgrade pip
 pip install jupyter
 
-jupyter notebook
-#OR
-jupyter notebook --ip=0.0.0.0 --port=8888 --notebook-dir=/data/bigwork/smartbooks
+#生成配置文件
+jupyter notebook --generate-config
 
+#编辑配置文件
+vim /home/guest/.jupyter/jupyter_notebook_config.py
+c.NotebookApp.ip = '172.17.10.100'
+c.NotebookApp.notebook_dir = u'/data/bigwork/jupyter-notebook/notebook-dir'
+c.NotebookApp.open_browser = False
+c.NotebookApp.password_required = True
+c.NotebookApp.port = 8888
+
+#设置密码
+jupyter notebook password
+
+#启动服务
+jupyter notebook
 ```
 
 ## 常见错误
