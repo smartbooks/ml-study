@@ -26,7 +26,7 @@
 - cuBLAS:一个基于GPU的BLAS(向量和矩阵计算)库
 - cuSPARSE:稀疏矩阵和向量计算库
 - NCCL:可以理解为GPU集群模式协调管理库
-
+- 关于超算:http://www.nvidia.cn/object/cuda-ecosystem-cn.html
 
 ## 特殊说明
 ```
