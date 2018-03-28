@@ -38,6 +38,7 @@ tensorflow-gpu==1.5.0 需要 CUDA Toolkit 9.0
 cd %APPDATA%
 mkdir %APPDATA%/pip
 vim %APPDATA%/pip/pip.ini
+vim ~/.pip/pip.conf
 
 #内容如下
 [global]
@@ -77,6 +78,8 @@ pip install scikit-learn
 # 编译scikit-learn库
 pip install Cython
 python setup.py install
+
+yum install -y python-matplotlib
 ```
 
 ## 环境测试
