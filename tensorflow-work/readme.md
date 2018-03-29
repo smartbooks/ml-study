@@ -119,6 +119,25 @@ source ~/.bashrc
 
 pyspark
 
+#sql支持需要安装模块
+#https://github.com/catherinedevlin/ipython-sql
+pip install ipython-sql
+
+#Oracle支持
+#https://oracle.github.io/odpi/doc/installation.html#linux
+yum install libaio
+
+#Presto支持
+#https://www.qubole.com/blog/hive-presto-clusters-jupyter-aws-azure-oracle/
+pip install pyhive
+pip install requests
+
+#hive支持
+#https://github.com/dropbox/PyHive
+yum install gcc-c++ python-devel.x86_64 cyrus-sasl-devel.x86_64
+pip install thrift
+pip install pyhs2
+pip install thrift_sasl
 ```
 
 ## 常见错误
