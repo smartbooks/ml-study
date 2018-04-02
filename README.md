@@ -35,7 +35,7 @@
 - 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[jupyter](https://jupyter.org)
 - 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[TensorFlow](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph)
-- 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en)
+- 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[struts](http://struts.apache.org)
 - 资源隔离:[Docker](https://www.docker.com)
 
 ## 支撑体系
