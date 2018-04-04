@@ -1,4 +1,6 @@
 # encoding:utf-8
+# 贝叶斯多分类
+
 import csv
 
 csv_data = csv.reader(open("data/simple.csv", encoding="utf-8"))
