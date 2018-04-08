@@ -66,6 +66,7 @@
 - 网易:https://open.163.com
 - Google edu:https://ai.google/education
 - 更多推荐:https://www.zhihu.com/question/27952897
+- [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
 
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
