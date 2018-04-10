@@ -105,6 +105,11 @@
 - 贝叶斯分类:https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 - K最近邻:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - AdaBoost:https://en.wikipedia.org/wiki/AdaBoost
+- 余弦定理:https://en.wikipedia.org/wiki/Law_of_cosines
+- 欧式距离:https://en.wikipedia.org/wiki/Euclidean_distance
+- PageRank:https://en.wikipedia.org/wiki/PageRank
+- 马尔科夫链:https://en.wikipedia.org/wiki/Markov_chain
+- SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
 
 ## 算法选择
 ![ml_estimator_map](img/ml_map.png)
