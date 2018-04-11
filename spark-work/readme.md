@@ -194,3 +194,4 @@ if __name__ == "__main__":
 - http://dblab.xmu.edu.cn/blog/spark/
 - https://docs.databricks.com/
 - https://github.com/RedisLabs/spark-redis
+- JVM优化:http://www.cnblogs.com/likehua/p/3369823.html
