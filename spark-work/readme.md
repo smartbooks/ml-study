@@ -190,6 +190,9 @@ if __name__ == "__main__":
     spark.stop()
 ```
 
+## JVM
+![java8](/img/java8.png)
+
 # 参考资料
 - http://dblab.xmu.edu.cn/blog/spark/
 - https://docs.databricks.com/
