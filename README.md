@@ -70,6 +70,10 @@
 - 更多推荐:https://www.zhihu.com/question/27952897
 - [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
 
+## 免费论文
+- MIT:http://dspace.mit.edu/
+- harvard:https://dash.harvard.edu/
+
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
 - [线性代数(原书第9版)](https://www.amazon.cn/gp/product/B015H5F99Y)
