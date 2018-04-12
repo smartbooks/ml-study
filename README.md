@@ -73,6 +73,7 @@
 ## 免费论文
 - MIT:http://dspace.mit.edu/
 - harvard:https://dash.harvard.edu/
+- 科学网:http://www.sciencenet.cn/
 
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
