@@ -394,7 +394,7 @@
 			
 			<tr>
 				<td>$$R(e_i)$$</td>
-				<td>$$R(e_i)=\frac{e_i-E_{min}}{E_{max}-E_{min}}*(max-min)+min$$</td>
+				<td>$$R(e_i)=\frac{e_i-E_{min}}{E_{max}-E_{min}}\times(max-min)+min$$</td>
 				<td>MinMaxScaler</td>
 				<td>将样本归一化缩放到[min,max]区间,其中min=0,max=1,$$E_{min}={样本最小值}$$$$E_{max}={样本最大值}$$</td>
 			</tr>
@@ -421,10 +421,13 @@
 			</tr>
 			
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>$$η$$</td>
+				<td>
+					$$η=\prod_{p=1}^{d}\left(\frac{k_i}{\sum_{i=1}^{d}k_i} \times \log\frac{|D|+1}{|k_i \subset d|+1}\right)$$
+				</td>
+				<td>TF-IDF</td>
+				<td>D总文档数,d当前文档,ki当前文档第i个词,η当前文档全部词的tf-idf乘积(可用于衡量2个文档的相似度)，例子:
+(中国/加入/世界/贸易/组织/啦 | 世界/贸易/组织/接受/中国/加入/啦)</td>
 			</tr>
 			
 			<tr>
