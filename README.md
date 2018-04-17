@@ -69,6 +69,7 @@
 - Google edu:https://ai.google/education
 - 更多推荐:https://www.zhihu.com/question/27952897
 - [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
+- http://cuijiahua.com/blog/ml/
 
 ## 免费论文
 - MIT:http://dspace.mit.edu/
