@@ -8,3 +8,4 @@
 - http://neuralnetworksanddeeplearning.com/chap1.html
 - http://deeplearning.stanford.edu/wiki/index.php/Backpropagation_Algorithm
 - http://deeplearning.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B
+- [NG的课程]:http://cs229.stanford.edu/
