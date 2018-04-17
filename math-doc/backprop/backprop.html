@@ -1,12 +1,13 @@
 <html>
 <head>
-  <title>Backpropagation</title>
+  <title>Backpropagation-反向传播算法</title>
   <link href="style.css" type="text/css" rel="StyleSheet">
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <body bgcolor="#FFFFFF" leftmargin="30" topmargin="20" marginwidth="10" marginheight="20">
   <h2 align="center">Principles of training multi-layer neural network using backpropagation</h2>
+	<h2 align="center">基于反向传播算法训练多层神经网络的原理</h2>
   <hr width="15%">
 
 <table border="0" cellspacing="0" cellpadding="0" width="90%" align="center">
@@ -17,10 +18,14 @@
      The project describes teaching process of multi-layer neural network employing <i>backpropagation</i> algorithm. To illustrate this 
 process the three layer neural network with two inputs and one output,which is shown in the picture below, is used:
 <br><br>
+这个项目描述的是多层神经网络算法的训练过程。为了说明这个训练过程使用了2个输入和1个输出的三层(输入层/隐含层/输出层)神经网络，如下图所示：
+<br><br>
 <div class="img"><center><img src="backprop_files/img01.gif"></center></div><br><br>
 Each neuron is composed of two units. First unit adds products of weights coefficients and input signals. The second unit realise nonlinear
  function, called neuron activation function. Signal <i>e</i> is adder output signal, and <i>y = f(e)</i> is output signal of nonlinear 
 element. Signal <i>y</i> is also output signal of neuron.
+<br><br>
+每个神经元由2个单元组成。第一个单元累加权重系数和输入信号的乘积，第二个单元实现非线性函数，称为神经元激活函数。信号<i>e</i>是第一个单元的乘积累加和，而<i>y=f(e)</i>是非线性输出，<i>y</i>也是神经元的输出信号。
 <br><br>
 <div class="img"><center><img src="backprop_files/img01b.gif"></center></div><br><br>
 To teach the neural network we need training data set. The training data set consists of input signals (<i>x<sub>1</sub></i> and 
@@ -81,7 +86,7 @@ the final stage. Starting teaching process with low parameter value enables to d
 
 <br /><br />
 <small> <b>References</b><br />
-      Ryszard Tadeusiewcz "Sieci neuronowe", Krak�w 1992<br />
+      Ryszard Tadeusiewcz "Sieci neuronowe", Kraków 1992<br />
 </small>
       <br>
 
@@ -98,8 +103,8 @@ the final stage. Starting teaching process with low parameter value enables to d
     <td align="right" colspan="3">
       <small>
      <div class="fullname"><a href="mailto:bernacek@o2.pl">Mariusz Bernacki</a></div>
-     <div class="fullname"><a href="mailto:pwl16@o2.pl">Przemys�aw W�odarczyk</a></div>
-      mgr in�. Adam Go�da (2005)<br />
+     <div class="fullname"><a href="mailto:pwl16@o2.pl">Przemysław Włodarczyk</a></div>
+      mgr inż. Adam Gołda (2005)<br />
       Katedra Elektroniki AGH
       </small>
     </td>
