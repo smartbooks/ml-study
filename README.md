@@ -4,7 +4,7 @@
 
 ## 前言科技
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
-- 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080)
+- 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080),[gateio](https://gateio.io/)
 - 共享经济:OFO,摩拜,街电,来电
 - 新零售:抓娃娃,自助售卖机
 - infinite-band、模型群组
