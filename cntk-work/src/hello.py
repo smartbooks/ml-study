@@ -6,7 +6,7 @@ from cntk.device import try_set_default_device, gpu
 
 cntk.__version__
 
-cntk.minus([1, 2, 3], [4, 5, 6]).eval()
+cntk.minus([1, 2, 3], [4, 5, 6]).eval();
 
 x = cntk.input_variable(2)
 y = cntk.input_variable(2)
