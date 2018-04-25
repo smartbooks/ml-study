@@ -22,8 +22,8 @@ def printMat(mat):
     print(("shape:\n%s\nmat:\n%s") % (nm.shape(mat), mat))
 
 
-srcImg = "c:/test/001.jpg"
-grayImg = "c:/test/001.gray.jpg"
+srcImg = "c:/test/002.jpg"
+grayImg = "c:/test/002.gray.jpg"
 
 img = readImg(srcImg, cv2.IMREAD_GRAYSCALE)
 
@@ -34,8 +34,9 @@ printMat(img)
 U, Sigma, VT = nm.linalg.svd(img)
 
 sigmaN = 1
+rate = 0.999
 totalEnergy = sum(Sigma ** 2)
-totalEnergy90 = totalEnergy * 0.99
+totalEnergy90 = totalEnergy * rate
 for k in range(len(Sigma)):
     kIt = k + 1
     kEnergy = sum(Sigma[:kIt] ** 2)
@@ -47,6 +48,6 @@ for k in range(len(Sigma)):
 svdSigma = nm.mat(nm.eye(sigmaN) * Sigma[:sigmaN])
 svdImg = nm.around(U[:, :sigmaN] * svdSigma * VT[:sigmaN, :])
 
-#show(svdImg)
+# show(svdImg)
 printMat(svdImg)
-saveImg("c:/test/0.99.jpg", svdImg)
+saveImg("c:/test/" + str(rate) + ".jpg", svdImg)
