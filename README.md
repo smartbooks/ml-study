@@ -1,6 +1,7 @@
 # ml-study
 - 发现宇宙的奥秘,方知人类的渺小。
 - 发现知识的真谛,方知自己的蛮荒。
+- [AiLab](ailab/readme.md)
 
 ## 前言科技
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
