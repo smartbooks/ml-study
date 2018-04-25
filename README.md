@@ -129,10 +129,7 @@
 - JetBrains PhpStorm
 - Xmanager Enterprise 4
 - Atom
-- octave
-- RStudio
 - Axure RP 8
-- Power BI Desktop
 - Visual Studio 2017
 - Android Studio
 
@@ -145,7 +142,8 @@
 - Qlik Sense:http://www.qlik.com/zh-cn/products
 - Spss:http://www.spss.com.cn
 - R:https://www.r-project.org
-- Python
+- RStudio:https://www.rstudio.com
+- Python:https://www.python.org
 
 ### 数据库工具
 - NoSQL Manager for MongoDB
