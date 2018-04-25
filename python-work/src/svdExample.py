@@ -16,7 +16,8 @@ dataMat = nm.mat([
 
 U, SIGMA, VT = nm.linalg.svd(dataMat)
 
-print(("原始矩阵:\n%s\nU:\n%s\nSIGMA:\n%s\nVT:\n%s") % (dataMat, U, SIGMA, VT))
+print(("原始矩阵%s:\n%s\nU%s:\n%s\nSIGMA:\n%s\nVT%s:\n%s") % (
+    nm.shape(dataMat), dataMat, nm.shape(U), U, SIGMA, nm.shape(VT), VT))
 
 # 总能量
 sigmaN = 1
@@ -34,8 +35,16 @@ restoreSigmaMat = nm.mat(nm.eye(sigmaN) * SIGMA[:sigmaN])
 
 restoreMat = U[:, :sigmaN] * restoreSigmaMat * VT[:sigmaN, :]
 
-print(("k:%s\nsigma:\n%s\n重建矩阵:\n%s\n[0]T:\n%s") % (sigmaN, restoreSigmaMat, restoreMat, restoreMat[0, :].T))
+print(("k:%s\nsigma:\n%s\n重建矩阵%s:\n%s\n[0]T:\n%s") % (
+    sigmaN, restoreSigmaMat, nm.shape(restoreMat), restoreMat, restoreMat[0, :].T))
 
+# 将物品转到低维空间
 originMat1 = dataMat.T * U[:, :sigmaN] * restoreSigmaMat.I
+
+# T:转置
+# H:共轭
+# I:逆矩阵
+
+print(("原始数据转置%s:\n%s\nsigmaI:\n%s") % (nm.shape(dataMat.T), dataMat.T, restoreSigmaMat.I))
 
 print(("Item与Item相似度:\n%s\n[0]T:\n%s") % (originMat1, originMat1[0, :].T))
