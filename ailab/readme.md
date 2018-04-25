@@ -21,6 +21,14 @@
 - 机器翻译
 - 聊天机器人
 
+### 控制AI
+- 自动驾驶:[百度阿波罗](http://apollo.auto)
+
+## 基础知识
+- 理论知识:高等数学、线性代数、概率论、微积分、数理统计
+- 编程语言:C++、Python
+- 论文工具:Adobe Reader、[LaTex](http://www.ctex.org)
+
 # 大厂参考
 - [网易人工智能](https://ai.163.com)
 - [百度AI开放平台](https://ai.baidu.com)
@@ -34,5 +42,3 @@
 - 滴滴
 - [Google Quantum](https://plus.google.com/+QuantumAILab)
 - [facebook](https://research.fb.com/category/facebook-ai-research-fair)
-
-
