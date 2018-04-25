@@ -136,6 +136,17 @@
 - Visual Studio 2017
 - Android Studio
 
+### 数据分析
+- Excel
+- Matlab
+- Octave:http://www.gnu.org/software/octave
+- Power BI Desktop:https://powerbi.microsoft.com/zh-cn/desktop
+- Tablau:https://www.tableau.com/zh-cn/products/desktop
+- Qlik Sense:http://www.qlik.com/zh-cn/products
+- Spss:http://www.spss.com.cn
+- R:https://www.r-project.org
+- Python
+
 ### 数据库工具
 - NoSQL Manager for MongoDB
 - Navicat Premium 12
@@ -162,6 +173,7 @@
 - 亿图图示专家
 - Google Chrome
 - Chrome Extensions Markdown Preview Plus
+- LaTex:http://www.ctex.org
 
 ## 其他随记
 ### 推荐系统
