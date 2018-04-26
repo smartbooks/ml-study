@@ -1,5 +1,5 @@
 # encoding:utf-8
-# 线性回归分类
+# 线性回归:标准线性回归&局部加权线性回归
 
 import numpy as nm
 
