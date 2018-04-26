@@ -12,6 +12,7 @@ sortDataMat.sort(0)
 # 全1矩阵
 labelOneMat = nm.ones((sortDataMat.shape[0], 1))
 
+
 # 损失函数
 def lrLoss(yMat, yHatMat, showPlot=False):
     e = yMat - yHatMat
