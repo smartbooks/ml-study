@@ -4,44 +4,49 @@
 import numpy as nm
 import matplotlib.pyplot as plt
 
-dataMat = nm.mat(nm.random.uniform(0, 10, size=(50, 2)))
+dataMat = nm.mat(nm.random.uniform(1, 6, size=(10, 2)))
+dataMat2 = nm.mat(nm.random.uniform(3, 8, size=(10, 2)))
 
 sortDataMat = dataMat.copy()
 sortDataMat.sort(0)
 
 # 全1矩阵
-labelOneMat = nm.ones((sortDataMat.shape[0], 1))
+labelOneMat = nm.mat(nm.ones((sortDataMat.shape[0], 1)))
 
 
 # 损失函数
-def lrLoss(yMat, yHatMat, showPlot=False):
+def lrLoss(yMat, yHatMat, showPlot=False, ws=None):
     e = yMat - yHatMat
     eSquare = nm.square(e)
     eSquareSum = nm.sum(nm.square(e))
-    print("Y:\n", yMat)
-    print("预测:\n", yHatMat)
-    print("残差:\n", e)
-    print("残差平方:\n", eSquare)
+    # print("Y:\n", yMat)
+    # print("预测:\n", yHatMat)
+    # print("残差:\n", e)
+    # print("残差平方:\n", eSquare)
     print("残差平方和:", eSquareSum)
 
-    if showPlot == True:
+    if showPlot == True and ws is not None:
         x = sortDataMat[:, 0].flatten().A[0]
         y = sortDataMat[:, 1].flatten().A[0]
+        # print("x =", x)
+        # print("y =", y)
 
-        print("x =", x)
-        print("y =", y)
+        plt.scatter(x, y, c='b', marker='x', s=50)
 
-        fig = plt.figure()
-        ax = fig.add_subplot(111)
-        ax.scatter(x, y)
+        plotX = nm.arange(-5, 5, 0.1)
+        plotY = (-ws[0] - ws[1] * plotX) / ws[2]
 
-        yLab = sortDataMat[:, 0].flatten().A[0]
-        yHat = yHatMat[:, 0].flatten().A[0]
+        # plotX = labelOneMat[:, 0].flatten().A[0]
+        plotY = yHatMat[:, 0].flatten().A[0]
+        # plotX = sortDataMat[:, 0].flatten().A[0]
+        # plotY = yHatMat[:, 0].flatten().A[0]
+        print("plotX = ", plotX)
+        print("plotY = ", plotY)
 
-        print("yLab = ", yLab)
-        print("yHat = ", yHat)
+        plt.plot(plotX, plotY)
 
-        ax.plot(yHat, yLab)
+        plt.ylabel("Prediction")
+        plt.xlabel("Target")
         plt.show()
 
 
@@ -86,7 +91,7 @@ def test1():
     ws = standRegres(sortDataMat, labelOneMat)
     y = sortDataMat * ws
     print("权重:\n", ws)
-    lrLoss(labelOneMat, y, True)
+    lrLoss(labelOneMat, y, True, ws)
 
 
 def test2():
@@ -96,7 +101,7 @@ def test2():
 
 
 print("数据:\n", sortDataMat)
-print("标签:\n", labelOneMat)
+# print("标签:\n", labelOneMat)
 
 test1()
-test2()
+# test2()
