@@ -4,18 +4,15 @@
 import numpy as nm
 import matplotlib.pyplot as plt
 
-dataMat = nm.mat(nm.random.uniform(1, 6, size=(10, 2)))
-dataMat2 = nm.mat(nm.random.uniform(3, 8, size=(10, 2)))
+rowCount = 1000
 
-sortDataMat = dataMat.copy()
-sortDataMat.sort(0)
-
-# 全1矩阵
-labelOneMat = nm.mat(nm.ones((sortDataMat.shape[0], 1)))
+dataMat = nm.mat(nm.random.uniform(0, 1, size=(rowCount, 1)))
+dataMat.sort(0)
+labelOneMat = nm.mat(nm.random.uniform(0, 1, size=(rowCount, 1)))
 
 
 # 损失函数
-def lrLoss(yMat, yHatMat, showPlot=False, ws=None):
+def lrLoss(yMat, yHatMat, showPlot=False):
     e = yMat - yHatMat
     eSquare = nm.square(e)
     eSquareSum = nm.sum(nm.square(e))
@@ -25,28 +22,31 @@ def lrLoss(yMat, yHatMat, showPlot=False, ws=None):
     # print("残差平方:\n", eSquare)
     print("残差平方和:", eSquareSum)
 
-    if showPlot == True and ws is not None:
-        x = sortDataMat[:, 0].flatten().A[0]
-        y = sortDataMat[:, 1].flatten().A[0]
-        # print("x =", x)
-        # print("y =", y)
+    if showPlot == True:
+        # 散点图
+        scatterPointX = nm.arange(0, 1, 1 / labelOneMat.shape[0])
+        scatterPointY = labelOneMat[:, 0].flatten().A[0]
+        plt.scatter(x=scatterPointX, y=scatterPointY, c='b', marker='x', s=20)
 
-        plt.scatter(x, y, c='b', marker='x', s=50)
+        # 曲线图
+        plotPoint = yHatMat[:, 0].flatten().A[0]
+        plt.plot(scatterPointX, plotPoint, 'r--')
 
-        plotX = nm.arange(-5, 5, 0.1)
-        plotY = (-ws[0] - ws[1] * plotX) / ws[2]
-
-        # plotX = labelOneMat[:, 0].flatten().A[0]
-        plotY = yHatMat[:, 0].flatten().A[0]
-        # plotX = sortDataMat[:, 0].flatten().A[0]
-        # plotY = yHatMat[:, 0].flatten().A[0]
-        print("plotX = ", plotX)
-        print("plotY = ", plotY)
-
-        plt.plot(plotX, plotY)
+        # 目标点与观测点之间连线
+        """
+        ax = plt.axes()
+        for i in range(len(scatterPointX)):
+            ax.arrow(scatterPointX[i], plotPoint[i],
+                     scatterPointX[i], scatterPointY[i],
+                     head_width=0.05,
+                     head_length=0.2,
+                     fc='g',
+                     ec='b',
+                     length_includes_head=True)
+        """
 
         plt.ylabel("Prediction")
-        plt.xlabel("Target")
+        plt.xlabel("Simple")
         plt.show()
 
 
@@ -88,20 +88,20 @@ def lwlrTest(xMat, yMat, k=1.0):
 
 def test1():
     print("**********标准线性回归**********")
-    ws = standRegres(sortDataMat, labelOneMat)
-    y = sortDataMat * ws
+    ws = standRegres(dataMat, labelOneMat)
+    y = dataMat * ws
     print("权重:\n", ws)
-    lrLoss(labelOneMat, y, True, ws)
+    lrLoss(labelOneMat, y, True)
 
 
 def test2():
     print("**********局部加权线性回归**********")
-    y = lwlrTest(sortDataMat, labelOneMat, 0.33)
+    y = lwlrTest(dataMat, labelOneMat, 0.33)
     lrLoss(labelOneMat, y, True)
 
 
-print("数据:\n", sortDataMat)
+# print("数据:\n", dataMat)
 # print("标签:\n", labelOneMat)
 
 test1()
-# test2()
+test2()
