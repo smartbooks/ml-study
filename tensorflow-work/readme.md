@@ -27,6 +27,7 @@
 - cuSPARSE:稀疏矩阵和向量计算库
 - NCCL:可以理解为GPU集群模式协调管理库
 - 关于超算:http://www.nvidia.cn/object/cuda-ecosystem-cn.html
+- https://pandas.pydata.org/
 
 ## 特殊说明
 ```
@@ -71,6 +72,8 @@ pip install numpy
 
 # 图形库
 pip install matplotlib
+
+pip install pandas
 
 # OpenCV支持
 pip install opencv-python
