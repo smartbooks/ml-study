@@ -28,6 +28,7 @@
 - NCCL:可以理解为GPU集群模式协调管理库
 - 关于超算:http://www.nvidia.cn/object/cuda-ecosystem-cn.html
 - https://pandas.pydata.org/
+- N多彪悍的绘图示例:https://matplotlib.org/gallery.html
 
 ## 特殊说明
 ```
