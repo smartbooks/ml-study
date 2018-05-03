@@ -61,6 +61,10 @@ pip uninstall tensorflow
 pip install tensorflow-gpu
 pip uninstall tensorflow-gpu
 
+#TF可视化神器:https://github.com/tensorflow/tensorboard
+pip install tensorboard
+tensorboard --logdir path/to/logs
+
 # GPU版本,只能二选一
 pip install tensorflow-gpu==1.5.0
 

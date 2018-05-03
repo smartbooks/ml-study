@@ -8,6 +8,7 @@ import tensorflow as tf
 
 # 图形库
 import matplotlib.pyplot as plt
+import matplotlib
 
 # 图形库显示中文乱码问题
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
@@ -27,7 +28,7 @@ z = np.cos(x)
 plt.plot(x, y, marker="*", linewidth=3, linestyle="--", color="orange")
 plt.plot(x, z)
 plt.title("matplotlib +6的飞起")
-plt.xlabel("高",fontproperties=msyh)
+plt.xlabel("高", fontproperties=msyh)
 plt.ylabel("宽")
 
 # 图形库绘图示例

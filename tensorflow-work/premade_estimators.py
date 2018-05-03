@@ -8,6 +8,10 @@ TEST_URL = "http://download.tensorflow.org/data/iris_test.csv"
 
 CSV_COLUMN_NAMES = ['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Species']
 
+# 写入日志目录
+# tensorboard --logdir c:/test/tb
+tf.summary.FileWriter("c:/test/tb", tf.Session.graph)
+
 
 def load_data(label_name='Species'):
     train_path = tf.keras.utils.get_file(fname=TRAIN_URL.split('/')[-1], origin=TRAIN_URL)
