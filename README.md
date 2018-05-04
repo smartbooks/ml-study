@@ -118,8 +118,9 @@
 - 马尔科夫链:https://en.wikipedia.org/wiki/Markov_chain
 - SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
 
-## 算法选择
-![ml_estimator_map](img/ml_map.png)
+## 算法选择与知识体系
+![ml_map](img/ml_map.png)
+![ml_job](img/ml_job.png)
 
 ## 常用工具
 ### 开发工具
