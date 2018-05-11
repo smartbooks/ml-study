@@ -121,9 +121,13 @@ feature_spec = {
 
 
 def serving_input_receiver_fn():
-    serialized_tf_example = tf.placeholder(dtype=tf.string, shape=[100], name='input_example_tensor')
+    serialized_tf_example = tf.placeholder(dtype=tf.string, name='input_example_tensor')
     receiver_tensors = {'examples': serialized_tf_example}
+    print("receiver_tensors=", receiver_tensors)
+
     features = tf.parse_example(serialized_tf_example, feature_spec)
+    print("features=", features)
+
     return tf.estimator.export.ServingInputReceiver(features, receiver_tensors)
 
 
