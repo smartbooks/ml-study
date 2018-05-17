@@ -1,18 +1,21 @@
 # ml-study
-知识体系整理
+- 发现宇宙的奥秘,方知人类的渺小。
+- 发现知识的真谛,方知自己的蛮荒。
+- [AiLab](ailab/readme.md)
 
-## 概念
-- 深度学习:自动驾驶
-- 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080)
+## 前言科技
+- 自动驾驶:[百度阿波罗](http://apollo.auto)
+- 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080),[gateio](https://gateio.io/)
 - 共享经济:OFO,摩拜,街电,来电
 - 新零售:抓娃娃,自助售卖机
 - infinite-band、模型群组
 
-## 攻坚课题
+## 实践平台
 - 数据仓库平台(基础层):采集/清洗/维度/建模/查询/用户画像/标签系统/自然语言
 - 数据分析平台(业务线):定制报表/自助提数/样本特征/分析报告
 - 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验
 - 深度学习平台(研究线):特征工程/GpuCluster/ParameterServer/ModelServer...
+- 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、[指标说明](app-simple/readme.md)
 
 ## 技能体系
 - 负载均衡:[nginx](http://nginx.org),[lvs](http://www.linuxvirtualserver.org),[haproxy](http://www.haproxy.org)
@@ -20,7 +23,7 @@
 - 邮件系统:[james](http://james.apache.org)
 - 监控系统:[zabbix](https://www.zabbix.com)
 - 统一授权:[OpenLDAP](http://www.openldap.org)
-- 数据存储:[mysql](https://www.mysql.com),[mongodb](https://www.mongodb.com),[cassandra](http://cassandra.apache.org),[H2](http://www.h2database.com),[SQLite](http://www.sqlite.org),Oracle,SqlServer
+- 数据存储:[mysql](https://www.mysql.com),[mongodb](https://www.mongodb.com),[cassandra](http://cassandra.apache.org),[H2](http://www.h2database.com),[SQLite](http://www.sqlite.org),Oracle,SqlServer,[FoundationDB](https://github.com/apple/foundationdb)
 - 高速缓存:[redis](https://redis.io),[memcached](https://www.memcached.org),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
 - 图数据库:[neo4j](https://neo4j.com)
 - 爬虫采集:[Scrapy](https://scrapy.org)
@@ -66,6 +69,13 @@
 - 网易:https://open.163.com
 - Google edu:https://ai.google/education
 - 更多推荐:https://www.zhihu.com/question/27952897
+- [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
+- http://cuijiahua.com/blog/ml/
+
+## 免费论文
+- MIT:http://dspace.mit.edu/
+- harvard:https://dash.harvard.edu/
+- 科学网:http://www.sciencenet.cn/
 
 ## 推荐书单
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
@@ -102,9 +112,15 @@
 - 贝叶斯分类:https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 - K最近邻:https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - AdaBoost:https://en.wikipedia.org/wiki/AdaBoost
+- 余弦定理:https://en.wikipedia.org/wiki/Law_of_cosines
+- 欧式距离:https://en.wikipedia.org/wiki/Euclidean_distance
+- PageRank:https://en.wikipedia.org/wiki/PageRank
+- 马尔科夫链:https://en.wikipedia.org/wiki/Markov_chain
+- SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
 
-## 算法选择
-![ml_estimator_map](img/ml_map.png)
+## 算法选择与知识体系
+![ml_map](img/ml_map.png)
+![ml_job](img/ml_job.png)
 
 ## 常用工具
 ### 开发工具
@@ -114,12 +130,21 @@
 - JetBrains PhpStorm
 - Xmanager Enterprise 4
 - Atom
-- octave
-- RStudio
 - Axure RP 8
-- Power BI Desktop
 - Visual Studio 2017
 - Android Studio
+
+### 数据分析
+- Excel
+- Matlab
+- Octave:http://www.gnu.org/software/octave
+- Power BI Desktop:https://powerbi.microsoft.com/zh-cn/desktop
+- Tablau:https://www.tableau.com/zh-cn/products/desktop
+- Qlik Sense:http://www.qlik.com/zh-cn/products
+- Spss:http://www.spss.com.cn
+- R:https://www.r-project.org
+- RStudio:https://www.rstudio.com
+- Python:https://www.python.org
 
 ### 数据库工具
 - NoSQL Manager for MongoDB
@@ -147,6 +172,7 @@
 - 亿图图示专家
 - Google Chrome
 - Chrome Extensions Markdown Preview Plus
+- LaTex:http://www.ctex.org
 
 ## 其他随记
 ### 推荐系统
@@ -186,4 +212,15 @@ git tag
 git tag -a v0.1 -m 'create message'
 git push origin v0.1
 git push origin --tags
+
+#一些神奇的数字
+nimble-sight-202908
+bright-velocity-202909
+quick-rarity-202909
+cobalt-entropy-202909
+trans-opus-202909
+macro-duality-202909
+amplified-ward-202909
+infinite-pad-202909
+pristine-cairn-202909
 ```

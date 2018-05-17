@@ -1,0 +1,487 @@
+\documentclass[UTF8,a4paper,notitlepage,openany,plain,final]{ctexbook}
+    \author{smartbooks}
+    \title{mathrix}
+    \date{2018年04月23日}
+	
+    %----A4设置----%
+    \usepackage{geometry}
+    \geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
+
+    %数学包%
+    \usepackage{amsmath}
+    %页面分栏%
+    \usepackage{multicol}
+
+\begin{document}
+
+    \begin{center}
+        \Large 矩阵运算
+    \end{center}
+
+    \columnseprule=1pt
+    \begin{multicols}{4}
+    \end{multicols}
+
+    矩阵定义:
+    \[
+        P = 2 , A =
+        \begin{bmatrix}
+            1 & 2 & 3 \\
+            1 & 2 & 3 \\
+            1 & 2 & 3
+        \end{bmatrix}
+        , B =
+        \begin{bmatrix}
+            3 & 2 & 1 \\
+            3 & 2 & 1 \\
+            3 & 2 & 1
+        \end{bmatrix}
+        , C =
+        \begin{bmatrix}
+            1 & 2 & 3
+        \end{bmatrix}
+        , D =
+        \begin{bmatrix}
+            1\\
+            2\\
+            3
+        \end{bmatrix}
+        , E =
+        \begin{bmatrix}
+            2
+        \end{bmatrix}
+    \]
+    
+    矩阵转置:
+    \[
+        A^T =
+        \begin{bmatrix}
+            1 & 1 & 1 \\
+            2 & 2 & 2 \\
+            3 & 3 & 3
+        \end{bmatrix}
+        , B^T =
+        \begin{bmatrix}
+            3 & 3 & 3 \\
+            2 & 2 & 2 \\
+            1 & 1 & 1
+        \end{bmatrix}
+        , C^T =
+        \begin{bmatrix}
+            1 \\
+            2 \\
+            3
+        \end{bmatrix}
+        , D^T =
+        \begin{bmatrix}
+            1 & 2 & 3
+        \end{bmatrix}
+        , E^T =
+        \begin{bmatrix}
+            2
+        \end{bmatrix}
+    \]
+
+    常数运算:
+    \[ \begin{split}
+        A + P =
+        \begin{bmatrix}
+            3 & 4 & 5 \\
+            3 & 4 & 5 \\
+            3 & 4 & 5
+        \end{bmatrix}
+        , A - P =
+        \begin{bmatrix}
+            -1 & 0 & 1 \\
+            -1 & 0 & 1 \\
+            -1 & 0 & 1
+        \end{bmatrix}
+        , A \times\; P =
+        \begin{bmatrix}
+            2 & 4 & 6 \\
+            2 & 4 & 6 \\
+            2 & 4 & 6
+        \end{bmatrix}
+        , A \div\; P =
+        \begin{bmatrix}
+            0.50 & 1 & 1.5 \\
+            0.50 & 1 & 1.5 \\
+            0.50 & 1 & 1.5
+        \end{bmatrix}
+        \\
+        P + A =
+        \begin{bmatrix}
+            3 & 4 & 5 \\
+            3 & 4 & 5 \\
+            3 & 4 & 5
+        \end{bmatrix}
+        , P - A =
+        \begin{bmatrix}
+            1 & 0 & -1 \\
+            1 & 0 & -1 \\
+            1 & 0 & -1
+        \end{bmatrix}
+        , P \times\; A =
+        \begin{bmatrix}
+            2 & 4 & 6 \\
+            2 & 4 & 6 \\
+            2 & 4 & 6
+        \end{bmatrix}
+        , P \div\; A =
+        \begin{bmatrix}
+            2 & 1.0 & 0.66 \\
+            2 & 1.0 & 0.66 \\
+            2 & 1.0 & 0.66
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        C + P =
+        \begin{bmatrix}
+            3 & 4 & 5
+        \end{bmatrix}
+        , C - P =
+        \begin{bmatrix}
+            -1 & 0 & 1
+        \end{bmatrix}
+        , C \times\; P =
+        \begin{bmatrix}
+            2 & 4 & 6
+        \end{bmatrix}
+        , C \div\; P =
+        \begin{bmatrix}
+            0.50 & 1 & 1.5
+        \end{bmatrix}
+        \\
+        P + C =
+        \begin{bmatrix}
+            3 & 4 & 5
+        \end{bmatrix}
+        , P - C =
+        \begin{bmatrix}
+            1 & 0 & -1
+        \end{bmatrix}
+        , P \times\; C =
+        \begin{bmatrix}
+            2 & 4 & 6
+        \end{bmatrix}
+        , P \div\; C =
+        \begin{bmatrix}
+            2 & 1.0 & 0.66
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        D + P =
+        \begin{bmatrix}
+            3 \\
+            4 \\
+            5
+        \end{bmatrix}
+        , D - P =
+        \begin{bmatrix}
+            -1 \\
+            0 \\
+            1
+        \end{bmatrix}
+        , D \times\; P =
+        \begin{bmatrix}
+            2 \\
+            4 \\
+            6
+        \end{bmatrix}
+        , D \div\; P =
+        \begin{bmatrix}
+            0.50 \\
+            1 \\
+            1.5
+        \end{bmatrix}
+        \\
+        P + D =
+        \begin{bmatrix}
+            3 \\
+            4 \\
+            5
+        \end{bmatrix}
+        , P - D =
+        \begin{bmatrix}
+            1 \\
+            0 \\
+            -1
+        \end{bmatrix}
+        , P \times\; D =
+        \begin{bmatrix}
+            2 \\
+            4 \\
+            6
+        \end{bmatrix}
+        , P \div\; D =
+        \begin{bmatrix}
+            2 \\
+            1 \\
+            0.66
+        \end{bmatrix}
+    \end{split} \]
+
+    矩阵运算:
+    \[ \begin{split}
+        A + B =
+        \begin{bmatrix}
+            4 & 4 & 4 \\
+            4 & 4 & 4 \\
+            4 & 4 & 4
+        \end{bmatrix}
+        , A - B =
+        \begin{bmatrix}
+            -2 & 0 & 2 \\
+            -2 & 0 & 2 \\
+            -2 & 0 & 2
+        \end{bmatrix}
+        , A \times\; B =
+        \begin{bmatrix}
+            18 & 12 & 6 \\
+            18 & 12 & 6 \\
+            18 & 12 & 6
+        \end{bmatrix}
+        , A \div\; B =
+        \begin{bmatrix}
+            0.33 & 1 & 3 \\
+            0.33 & 1 & 3 \\
+            0.33 & 1 & 3
+        \end{bmatrix}
+        \\
+        B + A =
+        \begin{bmatrix}
+            4 & 4 & 4 \\
+            4 & 4 & 4 \\
+            4 & 4 & 4
+        \end{bmatrix}
+        , B - A =
+        \begin{bmatrix}
+            2 & 0 & -2 \\
+            2 & 0 & -2 \\
+            2 & 0 & -2
+        \end{bmatrix}
+        , B \times\; A =
+        \begin{bmatrix}
+            6 & 12 & 18 \\
+            6 & 12 & 18 \\
+            6 & 12 & 18
+        \end{bmatrix}
+        , B \div\; A =
+        \begin{bmatrix}
+            3 & 1 & 0.33 \\
+            3 & 1 & 0.33 \\
+            3 & 1 & 0.33
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        A + C =
+        \begin{bmatrix}
+            2 & 4 & 6 \\
+            2 & 4 & 6 \\
+            2 & 4 & 6
+        \end{bmatrix}
+        , A - C =
+        \begin{bmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{bmatrix}
+        , A \times\; C =
+        \begin{bmatrix}
+            ERROR
+        \end{bmatrix}
+        , A \div\; C =
+        \begin{bmatrix}
+            1 & 1 & 1 \\
+            1 & 1 & 1 \\
+            1 & 1 & 1
+        \end{bmatrix}
+        \\
+        C + A =
+        \begin{bmatrix}
+            2 & 4 & 6 \\
+            2 & 4 & 6 \\
+            2 & 4 & 6
+        \end{bmatrix}
+        , C - A =
+        \begin{bmatrix}
+            0 & 0 & 0 \\
+            0 & 0 & 0 \\
+            0 & 0 & 0
+        \end{bmatrix}
+        , C \times\; A =
+        \begin{bmatrix}
+            6 & 12 & 18
+        \end{bmatrix}
+        , C \div\; A =
+        \begin{bmatrix}
+            1 & 1 & 1 \\
+            1 & 1 & 1 \\
+            1 & 1 & 1
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        A + D =
+        \begin{bmatrix}
+            2 & 3 & 4 \\
+            3 & 4 & 5 \\
+            4 & 5 & 6
+        \end{bmatrix}
+        , A - D =
+        \begin{bmatrix}
+             0 & 1 & 2 \\
+            -1 & 0 & 1 \\
+            -2 & 1 & 0
+        \end{bmatrix}
+        , A \times\; D =
+        \begin{bmatrix}
+            \quad 14 \quad\quad \\
+            \quad 14 \quad\quad \\
+            \quad 14 \quad\quad
+        \end{bmatrix}
+        , A \div\; D =
+        \begin{bmatrix}
+            1    & 2    & 3   \\
+            0.50 & 1    & 1.5 \\
+            0.33 & 0.66 & 1
+        \end{bmatrix}
+        \\
+        D + A =
+        \begin{bmatrix}
+            2 & 3 & 4 \\
+            3 & 4 & 5 \\
+            4 & 5 & 6
+        \end{bmatrix}
+        , D - A =
+        \begin{bmatrix}
+             0 & -1 & -2 \\
+             1 &  0 & -1 \\
+             2 &  1 &  0
+        \end{bmatrix}
+        , D \times\; A =
+        \begin{bmatrix}
+            ERROR
+        \end{bmatrix}
+        , D \div\; A =
+        \begin{bmatrix}
+            1.0 & 0.50  & 0.33 \\
+            2   & 1     & 0.66 \\
+            3   & 1.5   & 1
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        A + E =
+        \begin{bmatrix}
+            3 & 4 & 5 \\
+            3 & 4 & 5 \\
+            3 & 4 & 5
+        \end{bmatrix}
+        , A - E =
+        \begin{bmatrix}
+            -1 & 0 & 1 \\
+            -1 & 0 & 1 \\
+            -1 & 0 & 1
+        \end{bmatrix}
+        , A \times\; E =
+        \begin{bmatrix}
+            ERROR
+        \end{bmatrix}
+        , A \div\; E =
+        \begin{bmatrix}
+            0.50 & 1 & 1.5 \\
+            0.5  & 1 & 1.5 \\
+            0.5  & 1 & 1.5
+        \end{bmatrix}
+        \\
+        E + A =
+        \begin{bmatrix}
+            3 & 4 & 5 \\
+            3 & 4 & 5 \\
+            3 & 4 & 5
+        \end{bmatrix}
+        , E - A =
+        \begin{bmatrix}
+            1 & 0 & -1 \\
+            1 & 0 & -1 \\
+            1 & 0 & -1
+        \end{bmatrix}
+        , E \times\; A =
+        \begin{bmatrix}
+            ERROR
+        \end{bmatrix}
+        , E \div\; A =
+        \begin{bmatrix}
+            2.0 & 1 & 0.66 \\
+            2   & 1 & 0.66 \\
+            2   & 1 & 0.66
+        \end{bmatrix}
+    \end{split} \]
+
+    \[ \begin{split}
+        C + D =
+        \begin{bmatrix}
+            2 & 3 & 4 \\
+            3 & 4 & 5 \\
+            4 & 5 & 6
+        \end{bmatrix}
+        , C - D =
+        \begin{bmatrix}
+             0 &  1 & 2 \\
+            -1 &  0 & 1 \\
+            -2 & -1 & 0
+        \end{bmatrix}
+        , C \times\; D =
+        \begin{bmatrix}
+            \quad 14 \quad\quad
+        \end{bmatrix}
+        , C \div\; D =
+        \begin{bmatrix}
+            1    & 2    & 3   \\
+            0.5  & 1    & 1.50 \\
+            0.33 & 0.66 & 1
+        \end{bmatrix}
+        \\
+        D + C =
+        \begin{bmatrix}
+            2 & 3 & 4 \\
+            3 & 4 & 5 \\
+            4 & 5 & 6
+        \end{bmatrix}
+        , D - C =
+        \begin{bmatrix}
+            0 & -1 & -2 \\
+            1 &  0 & -1 \\
+            2 &  1 &  0
+        \end{bmatrix}
+        , D \times\; C =
+        \begin{bmatrix}
+            1 & 2 & 3 \\
+            2 & 4 & 6 \\
+            3 & 6 & 9
+        \end{bmatrix}
+        , D \div\; C =
+        \begin{bmatrix}
+            1.00 & 0.50 & 0.33 \\
+            2   & 1    & 0.66 \\
+            3   & 1.5  & 1
+        \end{bmatrix}
+    \end{split} \]
+    
+    源码示例:
+    \begin{verbatim}
+        import numpy as nm
+        P=2
+        A=nm.mat([[1,2,3],[1,2,3],[1,2,3]])
+        B=nm.mat([[3,2,1],[3,2,1],[3,2,1]])
+        C=nm.mat([[1,2,3]])
+        D=nm.mat([[1],[2],[3]])
+        E=nm.mat([[2]])
+    \end{verbatim}
+
+		
+\end{document}

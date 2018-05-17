@@ -33,3 +33,9 @@ python bayes.py
 预测概率(百分比): [['土豪', 2.9999991e-05], ['屌丝', 99.99997], ['萝莉', 8.9999973e-12]]
 
 ```
+
+# PIP
+```
+#安装opencv包
+pip install opencv-python
+```
