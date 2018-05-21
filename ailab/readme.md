@@ -67,3 +67,8 @@
 - 滴滴
 - [Google Quantum](https://plus.google.com/+QuantumAILab)
 - [facebook](https://research.fb.com/category/facebook-ai-research-fair)
+
+## AI平台
+- PAI:https://help.aliyun.com/document_detail/69223.html
+- azureml:https://studio.azureml.net
+- TI:https://cloud.tencent.com/product/TI
