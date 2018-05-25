@@ -199,3 +199,4 @@ if __name__ == "__main__":
 - https://github.com/RedisLabs/spark-redis
 - JVM优化:http://www.cnblogs.com/likehua/p/3369823.html
 - SparkUI扩展:https://www.jianshu.com/p/8e4c38d0c44e
+- SparkDataSource扩展:https://www.jianshu.com/p/6441eaa4d064
