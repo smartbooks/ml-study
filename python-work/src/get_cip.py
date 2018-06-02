@@ -2,7 +2,7 @@ from selenium import webdriver
 import os
 import time
 
-chromedriver = "C:/tool/Python36/chromedriver.exe"
+chromedriver = "D:/tool/Python36/chromedriver.exe"
 os.environ["webdriver.chrome.driver"] = chromedriver
 browser = webdriver.Chrome(chromedriver)
 
@@ -24,7 +24,7 @@ for x in range(501, 2216):
             yymc = doc.text
         elif id == 'pwrq':
             pwrq = doc.text
-
+		
         """
         游戏名称 神魔录
         公司名称 北京灵动时空科技有限责任公司
@@ -36,9 +36,11 @@ for x in range(501, 2216):
             print(x, xh, bawh, yymc, pwrq)
             browser.quit()
             break
-
+			
+    print(x, xh, bawh, yymc, pwrq)
+		
     # 自动翻到下一页
-    time.sleep(1)
+    # time.sleep(1)
     # browser.find_element_by_class_name("content-fy").find_element_by_link_text("下一页").click()
     page = browser.find_element_by_id("page")
     browser.execute_script("arguments[0].value='" + str(x) + "';", page)
