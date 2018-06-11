@@ -6,6 +6,12 @@
 #chromedriver与chrome版本关系对照表:https://blog.csdn.net/huilan_same/article/details/51896672
 #解压后放到目录下即可:C:\tool\Python36\chromedriver.exe
 pip install selenium
+
+#NodeBook
+pip install jupyter
+jupyter notebook --notebook-dir E:\work\github\ml-study\python-work\src
+
+#Anaconda,集成的Python环境
 ```
 
 # 算法使用
