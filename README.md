@@ -8,7 +8,7 @@
 - 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080),[gateio](https://gateio.io/)
 - 共享经济:OFO,摩拜,街电,来电
 - 新零售:抓娃娃,自助售卖机
-- infinite-band、模型群组
+- infinite-band、模型群组 
 
 ## 实践平台
 - 数据仓库平台(基础层):采集/清洗/维度/建模/查询/用户画像/标签系统/自然语言
