@@ -71,6 +71,7 @@ yum repolist
 echo "安装ntpd"
 yum -y install ntp
 chkconfig ntpd on
+systemctl enable ntpd.service
 service ntpd start
 
 echo "安装scp"
@@ -217,11 +218,12 @@ service cloudera-scm-server restart
 
 
 # 其他参考
-
 - 卸载CM:https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_uninstall_cm.html
 - 下载离线CM源:https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_create_local_package_repo.html#cmig_topic_21_3_1
 - 创建本地CM源:https://www.cloudera.com/documentation/enterprise/latest/topics/cm_ig_create_local_package_repo.html
 
 # 读者建议
+```
 问：如果安装失败了怎么办？
 答：建议重新安装操作系统.
+```
