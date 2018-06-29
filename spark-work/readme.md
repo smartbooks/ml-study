@@ -201,3 +201,4 @@ if __name__ == "__main__":
 - SparkUI扩展:https://www.jianshu.com/p/8e4c38d0c44e
 - SparkDataSource扩展:https://www.jianshu.com/p/6441eaa4d064
 - ApacheLivy:http://livy.incubator.apache.org/
+- HDFS权限管理指南:http://hadoop.apache.org/docs/r1.0.4/cn/hdfs_permissions_guide.html
