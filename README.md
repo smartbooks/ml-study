@@ -117,6 +117,7 @@
 - PageRank:https://en.wikipedia.org/wiki/PageRank
 - 马尔科夫链:https://en.wikipedia.org/wiki/Markov_chain
 - SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
+- 布隆过滤器:https://en.wikipedia.org/wiki/Bloom_filter
 
 ## 算法选择与知识体系
 ![ml_map](img/ml_map.png)
