@@ -30,6 +30,10 @@ solrctl collection --reload kmarket
 
 solrctl collection --list
 ```
+## Query
+```
+({!join from=uid to=uid fromIndex=user}sex:1) AND item_id:2000
+```
 
 
 # 参考链接
