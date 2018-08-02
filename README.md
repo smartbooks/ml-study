@@ -23,7 +23,7 @@
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
 - 邮件系统:[james](http://james.apache.org)
 - 监控系统:[zabbix](https://www.zabbix.com)
-- 统一授权:[OpenLDAP](http://www.openldap.org)
+- 统一授权:[OpenLDAP](http://www.openldap.org),[JumpServer](https://github.com/jumpserver/jumpserver)
 - 数据存储:[mysql](https://www.mysql.com),[mongodb](https://www.mongodb.com),[cassandra](http://cassandra.apache.org),[H2](http://www.h2database.com),[SQLite](http://www.sqlite.org),Oracle,SqlServer,[FoundationDB](https://github.com/apple/foundationdb)
 - 高速缓存:[redis](https://redis.io),[memcached](https://www.memcached.org),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
 - 图数据库:[neo4j](https://neo4j.com)
