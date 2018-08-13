@@ -7,11 +7,32 @@
 #解压后放到目录下即可:C:\tool\Python36\chromedriver.exe
 pip install selenium
 
-#NodeBook
-pip install jupyter
-jupyter notebook --notebook-dir E:\work\github\ml-study\python-work\src
+
 
 #Anaconda,集成的Python环境
+```
+
+## jupyter配置
+```
+#NodeBook
+pip install --upgrade pi
+yum -y install python-devel
+pip install
+pip install jupyter
+
+#生成配置文件
+jupyter notebook --generate-config --allow-root
+
+#编辑配置文件
+vim /root/.jupyter/jupyter_notebook_config.py
+
+#设置WEB访问密码
+jupyter notebook password
+
+#启动工作台
+jupyter notebook --notebook-dir E:\work\github\ml-study\python-work\src
+jupyter notebook --notebook-dir /data/suiyue/jupyter-notebook
+
 ```
 
 # 算法使用
