@@ -7,9 +7,15 @@
 #解压后放到目录下即可:C:\tool\Python36\chromedriver.exe
 pip install selenium
 
-
-
 #Anaconda,集成的Python环境
+
+#python parquet
+#https://github.com/andrix/python-snappy
+#https://pypi.org/project/parquet/
+brew install snappy
+sudo pip install python-snappy
+sudo pip install parquet
+
 ```
 
 ## jupyter配置
