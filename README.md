@@ -3,6 +3,7 @@
 - 发现知识的真谛,方知自己的蛮荒。
 - [AiLab](ailab/readme.md)
 - 人工智能:https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+- 知识图谱:https://github.com/TeamStuQ/skill-map/blob/master/data/Preview-source-skillmap-PNG.md
 
 ## 前言科技
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
