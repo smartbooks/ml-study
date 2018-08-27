@@ -42,6 +42,7 @@
 - 深度学习:[TensorFlow](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph)
 - 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com/),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[struts](http://struts.apache.org)
 - 资源隔离:[Docker](https://www.docker.com)
+- RPC框架:[Apache Thrift](http://thrift.apache.org)
 
 ## 支撑体系
 - 源码构建:[jenkins](https://jenkins.io/),[maven](https://maven.apache.org)
