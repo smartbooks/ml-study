@@ -6,7 +6,8 @@
 - 知识图谱:https://github.com/TeamStuQ/skill-map/blob/master/data/Preview-source-skillmap-PNG.md
 
 # AI大赛
-- https://challenger.ai
+- https://challenger.ai(这里就是个坑货,啥信息都没有,收集个人信息用的)
+- https://challenge.ai.meitu.com
 
 ## 前言科技
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
