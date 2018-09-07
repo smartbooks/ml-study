@@ -5,10 +5,6 @@
 - 人工智能:https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
 - 知识图谱:https://github.com/TeamStuQ/skill-map/blob/master/data/Preview-source-skillmap-PNG.md
 
-# AI大赛
-- https://challenger.ai(这里就是个坑货,啥信息都没有,收集个人信息用的)
-- https://challenge.ai.meitu.com
-
 ## 前言科技
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
 - 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080),[gateio](https://gateio.io/)
@@ -80,6 +76,7 @@
 - 更多推荐:https://www.zhihu.com/question/27952897
 - [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
 - http://cuijiahua.com/blog/ml/
+- https://morvanzhou.github.io/
 
 ## 免费论文
 - MIT:http://dspace.mit.edu/
