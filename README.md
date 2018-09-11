@@ -208,6 +208,7 @@
 0. 对信息的需求无所不在. The need for information crosses all borders.
 0. 不穿西装也可以严肃认真. You can be serious without a suit.
 0. 仅有优秀是远远不够的. Great just isn't good enough.
+0. 好产品满足人性七宗罪:饕餮、贪婪、懒惰、淫欲、傲慢、嫉妒、暴怒.
 
 ### git commit
 ```shell
