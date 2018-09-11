@@ -77,8 +77,9 @@
 - [WIKI中文存档](https://dumps.wikimedia.org/zhwiki),[WIKI英文存档](https://dumps.wikimedia.org/enwiki)
 - http://cuijiahua.com/blog/ml/
 - https://morvanzhou.github.io/
+- Kaggle(世界最大的数据科学家社区):https://www.kaggle.com
 
-## 免费论文
+## 优秀论文库
 - MIT:http://dspace.mit.edu/
 - harvard:https://dash.harvard.edu/
 - 科学网:http://www.sciencenet.cn/
