@@ -10,18 +10,33 @@ import matplotlib.pyplot as plt
 audio_path = '/Users/wangya/work/github.com/ml-study/python-work/src/data/test_wave.wav'
 
 def test_read():
-    print open(audio_path, 'rb').read(4)
+    af = open(audio_path, 'rb')
+
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
+    print af.read(4)
 
 def wave_read():
     wavfile =  we.open(audio_path,'rb')
+
+    #声道数|采样精度|采样率|帧数
     params = wavfile.getparams()
     framesra,frameswav= params[2],params[3]
+
     datawav = wavfile.readframes(frameswav)
     wavfile.close()
+
     datause = np.fromstring(datawav,dtype = np.short)
     datause.shape = -1,2
     datause = datause.T
+
     time = np.arange(0, frameswav) * (1.0/framesra)
+
     return datause,time
 
 def main():
@@ -34,8 +49,6 @@ def main():
     plt.show()
 
 test_read()
-
-wave_read()
 
 main()
 
