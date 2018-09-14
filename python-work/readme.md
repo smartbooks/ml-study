@@ -16,6 +16,10 @@ brew install snappy
 sudo pip install python-snappy
 sudo pip install parquet
 
+#http://old.sebug.net/paper/books/scipydoc/wave_pyaudio.html
+brew install portaudio
+pip install pyaudio
+
 ```
 
 ## jupyter配置

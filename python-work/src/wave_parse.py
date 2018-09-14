@@ -25,7 +25,14 @@ def wave_read():
     wavfile =  we.open(audio_path,'rb')
 
     #声道数|采样精度|采样率|帧数
+    #声道数量:包含的声道数,每个声道都可以独立播放
+    #采样精度:声音值的连续量转离散量,以bit为单位,16位等于65536个等级
+    #采样精度:每秒中采集样本数,一般常用44100
+    #帧数:采样样本数
     params = wavfile.getparams()
+
+    print params
+
     framesra,frameswav= params[2],params[3]
 
     datawav = wavfile.readframes(frameswav)
@@ -35,6 +42,7 @@ def wave_read():
     datause.shape = -1,2
     datause = datause.T
 
+    #推算出总时长
     time = np.arange(0, frameswav) * (1.0/framesra)
 
     return datause,time
