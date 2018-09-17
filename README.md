@@ -62,6 +62,7 @@
 - Java:https://docs.oracle.com/javase/specs
 - Scala:http://www.scala-lang.org
 - Python:https://www.python.org
+- Julia:https://julialang.org
 - GoLang:https://golang.org
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 - C/C++:https://en.wikipedia.org/wiki/ANSI_C
