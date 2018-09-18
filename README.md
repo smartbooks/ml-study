@@ -71,6 +71,7 @@
 ## 公开课
 - 《神经网络与深度学习》[邱锡鹏]:https://nndl.github.io/
 - Andrew Ng:http://open.163.com/special/opencourse/machinelearning.html
+- 吴恩达机器学习:https://study.163.com/course/introduction.htm?courseId=1004570029
 - Andrew Ng Home:http://www.andrewng.org
 - EDX:https://www.edx.org
 - Coursera:https://www.coursera.org
