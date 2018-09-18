@@ -1,5 +1,10 @@
 
 # tensorflow机器学些快速环境配置-windows
+- 快速入门:https://www.tensorflow.org/get_started/
+- 速成课程:https://developers.google.com/machine-learning/crash-course/
+- 实践课程:https://developers.google.com/machine-learning/practica/
+- 与GoogleAI一同成长:https://ai.google/education
+- 机器学习规则最佳实践:https://developers.google.com/machine-learning/guides/rules-of-ml/
 
 ## 必备软件
 - https://www.tensorflow.org/install/
