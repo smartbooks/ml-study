@@ -5,6 +5,7 @@
 - 实践课程:https://developers.google.com/machine-learning/practica/
 - 与GoogleAI一同成长:https://ai.google/education
 - 机器学习规则最佳实践:https://developers.google.com/machine-learning/guides/rules-of-ml/
+- 机器学习术语表:https://developers.google.com/machine-learning/glossary/
 
 ## 必备软件
 - https://www.tensorflow.org/install/
