@@ -22,6 +22,64 @@ pip install pyaudio
 
 ```
 
+## Anaconda
+```
+
+#配置镜像,https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+conda config --set ssl_verify false
+
+#查看虚拟环境
+conda info -e
+
+#创建虚拟环境
+conda create -n py27 python=2.7
+
+#虚拟环境安装和卸载包
+conda install -n py27 numpy
+conda uninstall -n py27 numpy
+
+#安装或更新指定版本的包
+conda install numpy=1.9.3
+conda update numpy=1.93
+
+#搜索包
+conda search numpy
+
+#查看已经安装的包
+conda list
+
+#指定查看某环境下安装的package
+conda list -n py27
+
+#切换环境
+source activate py27
+source deactivate
+
+#删除虚拟环境
+conda remove -n py27 --all
+
+#支持安装的Python版本
+conda search --full --name python
+
+```
+
+## magenta环境配置
+```
+#https://magenta.tensorflow.org
+
+conda create -n magenta python=3.7 jupyter
+source activate magenta
+
+pip install tensorflow
+pip install magenta
+
+sudo apt-get install build-essential libasound2-dev libjack-dev
+
+```
+
 ## jupyter配置
 ```
 #NodeBook
