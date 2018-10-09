@@ -83,6 +83,7 @@
 - http://cuijiahua.com/blog/ml/
 - https://morvanzhou.github.io/
 - Kaggle(世界最大的数据科学家社区):https://www.kaggle.com
+- 线性代数:https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos
 
 ## 优秀论文库
 - MIT:http://dspace.mit.edu/
