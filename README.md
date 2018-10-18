@@ -88,6 +88,7 @@
 - 线性代数:https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos
 - NVIDIA官方培训:https://www.nvidia.com/zh-cn/deep-learning-ai/education/
 - AI应用案例:https://www.nvidia.com/zh-cn/deep-learning-ai/industries/ai-innovators/
+- AI学习创作音乐:https://soundcloud.com/theaipodcast/ep-34
 
 ## 优秀论文库
 - MIT:http://dspace.mit.edu/
