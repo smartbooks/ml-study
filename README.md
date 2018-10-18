@@ -87,6 +87,7 @@
 - Kaggle(世界最大的数据科学家社区):https://www.kaggle.com
 - 线性代数:https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos
 - NVIDIA官方培训:https://www.nvidia.com/zh-cn/deep-learning-ai/education/
+- AI应用案例:https://www.nvidia.com/zh-cn/deep-learning-ai/industries/ai-innovators/
 
 ## 优秀论文库
 - MIT:http://dspace.mit.edu/
