@@ -17,20 +17,23 @@
 
 #多层神经网络JAVA版本实现(BP反向传播版):https://github.com/smartbooks/spark-example/blob/master/spark-example-base/src/test/java/com/github/smartbooks/base/bp/NeuralNetworksTest.java
 
-x=2; w=0; b=1; z=0.5;
-
-while {
-  s = sigmoid(x * w + b)    //s返回区间[0,1]
-  #e = 1 - (s / z)          //未使用sigmoid函数采用
-	e = z - s                 //梯度目标差
-  w += e                    //梯度自动上升或下降
-  print w,e
-}
+e = y - h
+w = w - step * a.T * e
 
 参数备注:
-+e: 梯度上升
--e: 梯度下降
-z : 目标阈值,通过w参数来控制
-b : 调控w为0情况,合理调控该参数可以明显的缩短迭代次数
-w : 一般默认为1,也可以给个0.00001,通过合理参数控制可以减少迭代次数
+w    = 权重
+step = 梯度更新步子
+a.T  = 特征矩阵
+e    = 残差
+y    = 目标
+h    = 预测目标
+
+#快速计算矩阵与向量的欧式距离
+a = np.mat([[1,2,3],[4,5,6]])
+w = np.mat([7,8,9])
+np.linalg.norm(a[1,:]-w[0])
+np.linalg.norm(a-w,axis=1)
+
+#批量修改特征
+a[:,0] = 0
 ```
