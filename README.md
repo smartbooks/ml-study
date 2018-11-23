@@ -34,7 +34,7 @@
 - 爬虫采集:[Scrapy](https://scrapy.org)
 - 中文分词:[Jcseg](https://github.com/lionsoul2014/jcseg)
 - 日志采集:[flume](http://flume.apache.org),[logstash](https://www.elastic.co/cn/products/logstash)
-- 消息队列:[kafka](http://kafka.apache.org),[ActiveMQ](http://activemq.apache.org)
+- 消息队列:[kafka](http://kafka.apache.org),[ActiveMQ](http://activemq.apache.org),[confluent](https://www.confluent.io)
 - 数据清洗:[Kettle](https://community.hds.com/docs/DOC-1009855),[DataX](https://github.com/alibaba/DataX),[Spark](http://spark.apache.org)
 - 任务调度:[Oozie](http://oozie.apache.org/)
 - 内存文件:[tachyon](https://www.alluxio.org)
