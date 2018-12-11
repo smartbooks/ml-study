@@ -7,7 +7,7 @@
     <inceptionYear>2008</inceptionYear>
 
     <properties>
-        <cdh.spark.version>2.2.0.cloudera1</cdh.spark.version>
+        <cdh.spark.version>2.2.0.cloudera2</cdh.spark.version>
         <java.version>1.8</java.version>
         <encoding>UTF-8</encoding>
         <maven.test.skip>true</maven.test.skip>
