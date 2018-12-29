@@ -63,6 +63,7 @@
 - 操作系统:[CentOS](https://www.centos.org),[Ubuntu](https://www.ubuntu.com)
 - 抓包工具:[Charles](https://www.charlesproxy.com/)
 - 开发工具:[NoSQLManager](https://www.mongodbmanager.com/)
+- 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 
 ## 编程语言
 
