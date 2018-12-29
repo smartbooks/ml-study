@@ -50,6 +50,8 @@
 - 资源隔离:[Docker](https://www.docker.com),[Kubernetes](https://kubernetes.io/)
 - RPC框架:[Apache Thrift](http://thrift.apache.org)
 - 用户画像:[Protégé](https://protege.stanford.edu),[Jena](http://jena.apache.org)
+- 容灾同步:[Redis-XPipe](https://github.com/ctripcorp/x-pipe)
+- 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 
 ## 支撑体系
 
@@ -63,7 +65,6 @@
 - 操作系统:[CentOS](https://www.centos.org),[Ubuntu](https://www.ubuntu.com)
 - 抓包工具:[Charles](https://www.charlesproxy.com/)
 - 开发工具:[NoSQLManager](https://www.mongodbmanager.com/)
-- 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 
 ## 编程语言
 
