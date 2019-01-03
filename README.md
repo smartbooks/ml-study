@@ -22,7 +22,7 @@
 - 数据分析平台(业务线):定制报表/自助提数/样本特征/分析报告
 - 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验/微软Azure ML Studio/阿里PAI/腾讯DI-X
 - 深度学习平台(研究线):特征工程/GpuCluster/ParameterServer/ModelServer...
-- 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、[指标说明](app-simple/readme.md)
+- 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、[指标说明](ailab/note/olap/readme.md)
 
 ## 技能体系
 
