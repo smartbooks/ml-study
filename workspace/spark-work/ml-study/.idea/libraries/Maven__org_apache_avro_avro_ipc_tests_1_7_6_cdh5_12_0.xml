@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.avro:avro-ipc:tests:1.7.6-cdh5.12.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/tool/apache-maven-3.5.3/repo/org/apache/avro/avro-ipc/1.7.6-cdh5.12.0/avro-ipc-1.7.6-cdh5.12.0-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/tool/apache-maven-3.5.3/repo/org/apache/avro/avro-ipc/1.7.6-cdh5.12.0/avro-ipc-1.7.6-cdh5.12.0-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/tool/apache-maven-3.5.3/repo/org/apache/avro/avro-ipc/1.7.6-cdh5.12.0/avro-ipc-1.7.6-cdh5.12.0-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
