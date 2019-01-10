@@ -79,7 +79,7 @@ MNIST数据集机器学习领域内用于手写字识别的数据集，数据集
 - 数据描述:
 - 样本数量:
 - 数据用途:
-- 下载地址:
+- 下载地址:http://www.image-net.org/challenges/LSVRC/2012/nonpub-downloads
 
 ```text
 http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_test.tar

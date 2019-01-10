@@ -22,3 +22,4 @@
 - [目标检测YOLO原理](https://www.cnblogs.com/fariver/p/7446921.html)
 - [第4门课程-卷积神经网络-第三周作业(机器视觉中物体检测)](https://blog.csdn.net/ljp1919/article/details/79058189)
 - [运用CNN对ImageNet进行图像分类](https://zhuanlan.zhihu.com/p/22538465)
+- [下载imagenet2012数据集以及label说明](http://www.cnblogs.com/zjutzz/p/6083201.html)
