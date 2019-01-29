@@ -37,7 +37,7 @@ Docker version 18.09.1, build 4c52b90
 >docker run centos /bin/echo "hello World"       #容器内执行echo命令并退出
 >docker run -d centos /bin/echo "hello world"    #进入后台模式运行命令
 >docker attach d48b21a7e439                      #进入正在运行的docker实例
->docker exec -it 2b05be77efe4 /bin/sh
+>docker exec -it 2b05be77efe4 /bin/bash
 
 #docker run 命令选项
 -d    #后台运行
