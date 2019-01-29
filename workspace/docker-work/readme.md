@@ -26,8 +26,8 @@ Docker version 18.09.1, build 4c52b90
 
 >docker pull centos    #安装镜像
 >docker images         #查看本机已安装的镜像
->docker ps             #查看运行的容器
->docker tag <容器ID> smartbooks/work:<tag>
+>docker ps -a          #查看运行的容器
+>docker tag <镜像ID> smartbooks/work:<tag>
 >docker commit -m="update" -a="smartbooks" <容器ID> smartbooks/work:<tag>    #镜像打标签
 >docker push smartbooks/work:<tag>    #推送镜像到仓库
 
@@ -36,6 +36,8 @@ Docker version 18.09.1, build 4c52b90
 >docker run -t -i centos                         #进入shell交互模式,exit退出
 >docker run centos /bin/echo "hello World"       #容器内执行echo命令并退出
 >docker run -d centos /bin/echo "hello world"    #进入后台模式运行命令
+>docker attach d48b21a7e439                      #进入正在运行的docker实例
+>docker exec -it 2b05be77efe4 /bin/sh
 
 #docker run 命令选项
 -d    #后台运行
