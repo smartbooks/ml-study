@@ -24,6 +24,7 @@
 - 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验/微软Azure ML Studio/阿里PAI/腾讯DI-X
 - 深度学习平台(研究线):特征工程/GpuCluster/ParameterServer/ModelServer...
 - 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、[指标说明](ailab/note/olap/readme.md)
+- 大规模部署与管理:Docker,Kubenetes,Kubeflow,Horovod
 
 ## 技能体系
 
