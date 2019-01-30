@@ -45,3 +45,55 @@ Docker version 18.09.1, build 4c52b90
 -p port:port    #手工指定端口映射
 
 ```
+
+## Build Dockerfile
+
+```bash
+
+#编译镜像,确保目录下存在Dockerfile文件
+cd $projectRoot
+docker build -t abtest-server .
+
+```
+
+## Dockerfile Example
+
+```dockerfile
+#继承自父级镜像
+FROM centos
+
+#作者信息
+MAINTAINER smartbooks
+
+#容器内部环境变量
+ENV APP_ROOT /data/service/app
+ENV APP_JAR docker-sample.jar
+
+#容器内部安装的依赖
+RUN mkdir -p ${APP_ROOT}
+RUN yum -y install java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
+
+#容器内部运行的身份
+#USER work
+
+#容器内部开启的端口
+EXPOSE 9999
+
+#容器内部的挂载目录
+VOLUME ${APP_ROOT}/config
+
+#容器内部的工作目录
+WORKDIR ${APP_ROOT}
+
+#将本地文件复制到容器内部
+ADD core-site.yaml ${APP_ROOT}
+ADD ./target/${APP_JAR} ${APP_ROOT}
+ADD ./target/lib ${APP_ROOT}/lib
+
+#容器启动时执行的命令,存在多个CMD,以最后一条为准,可以替换
+CMD java -jar ${APP_ROOT}/${APP_JAR}
+
+#容器启动时执行的命令,只能有1条,不可替换
+ENTRYPOINT java -jar ${APP_ROOT}/${APP_JAR}
+
+```
