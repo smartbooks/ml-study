@@ -1,7 +1,8 @@
 
 # 数学知识
 
-### DNN深度学习
+## DNN深度学习
+
 - https://zhuanlan.zhihu.com/p/24801814
 - http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html
 - https://iamtrask.github.io/2015/07/12/basic-python-network/
@@ -12,8 +13,9 @@
 - http://deeplearning.stanford.edu/tutorial/
 - http://cs229.stanford.edu/proj2017/
 
-### 梯度更新
-```
+## 梯度更新
+
+```text
 
 #多层神经网络JAVA版本实现(BP反向传播版):https://github.com/smartbooks/spark-example/blob/master/spark-example-base/src/test/java/com/github/smartbooks/base/bp/NeuralNetworksTest.java
 
@@ -36,4 +38,19 @@ np.linalg.norm(a-w,axis=1)
 
 #批量修改特征
 a[:,0] = 0
+```
+
+## match
+
+```text
+Scalar:标量,一个单独的数.
+Vector:向量,一列有序的数.
+Matrix:矩阵,一个二维数组.
+Tensor:张量,两维以上数组.
+1d-Tensor:vector.
+2d-Tensor:matrix.
+3d-Tensor:cube.
+4d-Tensor:vector of cubes.
+5d-Tensor:matrix of cubes.
+6d-Tensor:cube of cubes.
 ```
