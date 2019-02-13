@@ -40,7 +40,7 @@ np.linalg.norm(a-w,axis=1)
 a[:,0] = 0
 ```
 
-## match
+## matrix
 
 ```text
 Scalar:标量,一个单独的数.
@@ -53,4 +53,19 @@ Tensor:张量,两维以上数组.
 4d-Tensor:vector of cubes.
 5d-Tensor:matrix of cubes.
 6d-Tensor:cube of cubes.
+
+
+#矩阵概念
+单位矩阵
+矩阵的迹
+对角矩阵
+增广矩阵
+奇异值
+复矩阵
+阶数
+矩阵的秩
+病态矩阵
+矩阵的逆和伪逆
+奇异矩阵
+协方差矩阵
 ```
