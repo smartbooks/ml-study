@@ -48,12 +48,14 @@
 - 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[jupyter](https://jupyter.org)
 - 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[deeplearning4j](https://deeplearning4j.org/cn/),[Keras](https://keras.io/zh/),[TensorFlow](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph),[Chainer](https://chainer.org/),[PaddlePaddle](http://www.paddlepaddle.org/),[Darknet](https://pjreddie.com/darknet)
-- 运营报表:[Bootstrap](http://getbootstrap.com),[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[struts](http://struts.apache.org),[Bootstrap Metronic](https://keenthemes.com/metronic/)
+- 运营报表:[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Bootstrap Metronic](https://keenthemes.com/metronic/)
 - 资源隔离:[Docker](https://www.docker.com),[Kubernetes](https://kubernetes.io/)
 - RPC框架:[Apache Thrift](http://thrift.apache.org)
 - 用户画像:[Protégé](https://protege.stanford.edu),[Jena](http://jena.apache.org)
 - 容灾同步:[Redis-XPipe](https://github.com/ctripcorp/x-pipe)
 - 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
+- 前端框架:[Angular](https://angular.cn),[Vue](https://cn.vuejs.org),[React](https://reactjs.org),[jQuery](https://jquery.com),[Bootstrap](http://getbootstrap.com)
+- 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en)
 
 ## 支撑体系
 
