@@ -10,6 +10,7 @@
 - 专利搜索:https://patents.google.com
 - 学术搜索:https://scholar.google.com
 - [顶级的深度学习框架比较](https://deeplearning4j.org/cn/compare-dl4j-torch7-pylearn.html)
+- [AI芯片了解一下](http://china.xilinx.com)
 
 ## 前言科技
 
