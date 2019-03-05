@@ -33,7 +33,7 @@
 - 水平扩展:[dubbo](https://github.com/alibaba/dubbo)
 - 邮件系统:[james](http://james.apache.org)
 - 监控系统:[zabbix](https://www.zabbix.com)
-- 统一授权:[OpenLDAP](http://www.openldap.org),[JumpServer](https://github.com/jumpserver/jumpserver)
+- 统一授权:[Apache Directory](https://directory.apache.org),[OpenLDAP](http://www.openldap.org),[JumpServer](https://github.com/jumpserver/jumpserver)
 - 数据存储:[mysql](https://www.mysql.com),[mongodb](https://www.mongodb.com),[cassandra](http://cassandra.apache.org),[H2](http://www.h2database.com),[SQLite](http://www.sqlite.org),Oracle,SqlServer,[FoundationDB](https://github.com/apple/foundationdb)
 - 高速缓存:[redis](https://redis.io),[memcached](https://www.memcached.org),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
 - 图数据库:[neo4j](https://neo4j.com),[InfiniteGraph](https://www.objectivity.com/products/infinitegraph/),[DEX](http://sparsity-technologies.com),[InfoGrid](http://infogrid.org/trac),[HyperGraphDB](http://hypergraphdb.org/),[Trinity](https://www.graphengine.io),[AllegroGraph](https://allegrograph.com),[OrientDB](https://orientdb.com)
@@ -57,6 +57,7 @@
 - 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 - 前端框架:[Angular](https://angular.cn),[Vue](https://cn.vuejs.org),[React](https://reactjs.org),[jQuery](https://jquery.com),[Bootstrap](http://getbootstrap.com)
 - 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en)
+- 单点登录:[Apache Shiro(http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
 
 ## 支撑体系
 
