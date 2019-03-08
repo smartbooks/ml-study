@@ -56,7 +56,7 @@
 - 容灾同步:[Redis-XPipe](https://github.com/ctripcorp/x-pipe)
 - 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 - 前端框架:[Angular](https://angular.cn),[Vue](https://cn.vuejs.org),[React](https://reactjs.org),[jQuery](https://jquery.com),[Bootstrap](http://getbootstrap.com)
-- 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en)
+- 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[Eureka](https://github.com/Netflix/eureka)
 - 单点登录:[Apache Shiro(http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
 
 ## 支撑体系
