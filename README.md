@@ -110,6 +110,12 @@
 - 科学网:http://www.sciencenet.cn/
 - 康奈尔大学手稿论文:https://arxiv.org/
 
+## 竞赛
+
+- [全国青少年信息学奥林匹克竞赛](http://www.noi.cn)
+- [奥林匹克数学竞赛](http://www.jsxbpt.com)
+- [奥林匹克竞赛](https://baike.baidu.com/item/%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E7%AB%9E%E8%B5%9B)
+
 ## 推荐书单
 
 - [概率论与数理统计(第四版)](https://www.amazon.cn/dp/B00Y7UVZHQ)
