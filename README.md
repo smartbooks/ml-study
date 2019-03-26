@@ -80,7 +80,7 @@
 - Julia:https://julialang.org
 - GoLang:https://golang.org
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
-- [C/C++](https://en.wikipedia.org/wiki/ANSI_C),[KDevelop](https://www.kdevelop.org),[GCC](https://gcc.gnu.org)
+- [C](https://en.wikipedia.org/wiki/ANSI_C),[Conan](https://conan.io),[GCC](https://gcc.gnu.org),[C++语言参考](https://docs.microsoft.com/zh-cn/cpp/cpp/cpp-language-reference?view=vs-2017)
 - PHP:http://www.php.net
 
 ## 公开课
