@@ -11,6 +11,7 @@
 - 学术搜索:https://scholar.google.com
 - [顶级的深度学习框架比较](https://deeplearning4j.org/cn/compare-dl4j-torch7-pylearn.html)
 - [AI芯片了解一下](http://china.xilinx.com)
+- [Intel开发人员社区](https://software.intel.com/zh-cn)
 
 ## 前言科技
 
@@ -233,6 +234,16 @@
 - [《中国制造2025》.2015-05-19](http://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm)
 
 ## 其他随记
+
+### 其他知识
+
+```text
+OpenCL:并行编程，https://www.khronos.org/opencl
+OpenGL:三维图形
+OpenAL:计算机音频
+OpenCV:视频图像
+C++AMP:
+```
 
 ### 推荐系统
 
