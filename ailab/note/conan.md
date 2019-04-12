@@ -31,6 +31,12 @@ conan user -p password -r myconan admin
 #查看本地库
 conan search
 
+#搜索远程库
+conan search Poco* --remote=conan-center
+
+#查看包详细信息
+conan inspect Poco/1.9.0@pocoproject/stable
+
 #安装库
 conan install Hello/0.1@demo/testing
 
@@ -41,9 +47,37 @@ conan remove Hello/0.1@demo/testing
 vim conanfile.txt
 [requires]
 Poco/1.9.0@pocoproject/stable
+[generators]
+cmake
 
 #安装依赖
-conan install .
+mkdir build && cd build
+conan install ..
+
+#将依赖库conanbuildinfo.cmake信息配置到cmake
+cmake_minimum_required(VERSION 2.8.12)
+project(MD5Encrypter)
+add_definitions("-std=c++11")
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+add_executable(md5 md5.cpp)
+target_link_libraries(md5 ${CONAN_LIBS})
+
+#编译构建项目
+#win
+cd build
+cmake .. -G "Visual Studio 15 Win64"
+cmake --build . --config Release
+
+#linux,mac
+cd build
+cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+cmake --build .
+
+#执行程序
+./bin/md5
+c3fcd3d76192e4007dfb496cca67e13b
+
 
 #创建一个新包
 conan new Hello/0.1 -t
