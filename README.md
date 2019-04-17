@@ -71,7 +71,8 @@
 - 用户管理:[crowd](https://www.atlassian.com/software/crowd)
 - 操作系统:[CentOS](https://www.centos.org),[Ubuntu](https://www.ubuntu.com)
 - 抓包工具:[Charles](https://www.charlesproxy.com/)
-- 开发工具:[NoSQLManager](https://www.mongodbmanager.com/)
+- 开发工具:[NoSQLManager](https://www.mongodbmanager.com)
+- 接口管理:[yapi](https://github.com/YMFE/yapi)
 
 ## 编程语言
 
