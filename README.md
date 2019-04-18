@@ -12,6 +12,7 @@
 - [顶级的深度学习框架比较](https://deeplearning4j.org/cn/compare-dl4j-torch7-pylearn.html)
 - [AI芯片了解一下](http://china.xilinx.com)
 - [Intel开发人员社区](https://software.intel.com/zh-cn)
+- [刷刷题库?](https://leetcode-cn.com/problemset/all)
 
 ## 前言科技
 
