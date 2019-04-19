@@ -13,6 +13,7 @@
 - [AI芯片了解一下](http://china.xilinx.com)
 - [Intel开发人员社区](https://software.intel.com/zh-cn)
 - [刷刷题库?](https://leetcode-cn.com/problemset/all)
+- [数学乐](https://www.shuxuele.com),[mathopolis](https://www.mathopolis.com),[mathsisfun](https://www.mathsisfun.com)
 
 ## 前言科技
 
