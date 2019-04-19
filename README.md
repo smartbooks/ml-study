@@ -1,33 +1,17 @@
 # ml-study
 
-- [tensorflow.google.cn无需梯子](https://tensorflow.google.cn/)
-- 发现宇宙的奥秘,方知人类的渺小。
-- 发现知识的真谛,方知自己的蛮荒。
-- [AiLab](ailab/readme.md)
-- 人工智能:https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
-- 知识图谱:https://github.com/TeamStuQ/skill-map/blob/master/data/Preview-source-skillmap-PNG.md
-- AIChallenger全球AI挑战赛:https://challenger.ai
-- 专利搜索:https://patents.google.com
-- 学术搜索:https://scholar.google.com
-- [顶级的深度学习框架比较](https://deeplearning4j.org/cn/compare-dl4j-torch7-pylearn.html)
-- [AI芯片了解一下](http://china.xilinx.com)
-- [Intel开发人员社区](https://software.intel.com/zh-cn)
-- [刷刷题库?](https://leetcode-cn.com/problemset/all)
-- [数学乐](https://www.shuxuele.com),[mathopolis](https://www.mathopolis.com),[mathsisfun](https://www.mathsisfun.com)
-
 ## 前言科技
 
 - 自动驾驶:[百度阿波罗](http://apollo.auto)
-- 区块链:[bitcoin](https://bitcoin.org/en),[同步财经](http://kelacp.cn:8080),[gateio](https://gateio.io/)
 - infinite-band、模型群组
 
 ## 实践平台
 
 - 数据仓库平台(基础层):采集/清洗/维度/建模/查询/用户画像/标签系统/自然语言
 - 数据分析平台(业务线):定制报表/自助提数/样本特征/分析报告
-- 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验/微软Azure ML Studio/阿里PAI/腾讯DI-X
+- 机器学习平台(产品线):特征工程/训练/评估/部署/AB实验/微软Azure ML Studio/阿里PAI
 - 深度学习平台(研究线):特征工程/GpuCluster/ParameterServer/ModelServer...
-- 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、[指标说明](ailab/note/olap/readme.md)
+- 数据分析:网站分析、应用分析、游戏分析、广告分析、传播分析、心流算法、[指标说明](ailab/note/olap/readme.md)
 - 大规模部署与管理:Docker,Kubenetes,Kubeflow,Horovod
 
 ## 技能体系
@@ -51,7 +35,7 @@
 - 数据仓库:[presto](https://github.com/prestodb/presto),[kylin](http://kylin.apache.org),[hive](http://hive.apache.org),[Greenplum](https://greenplum.org)
 - 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[jupyter](https://jupyter.org)
 - 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
-- 深度学习:[deeplearning4j](https://deeplearning4j.org/cn/),[Keras](https://keras.io/zh/),[TensorFlow](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph),[Chainer](https://chainer.org/),[PaddlePaddle](http://www.paddlepaddle.org/),[Darknet](https://pjreddie.com/darknet)
+- 深度学习:[deeplearning4j](https://deeplearning4j.org/cn/),[Keras](https://keras.io/zh/),[TensorFlow-CN](https://tensorflow.google.cn),[TensorFlow-Code](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph),[Chainer](https://chainer.org/),[PaddlePaddle](http://www.paddlepaddle.org/),[Darknet](https://pjreddie.com/darknet)
 - 运营报表:[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Bootstrap Metronic](https://keenthemes.com/metronic/)
 - 资源隔离:[Docker](https://www.docker.com),[Kubernetes](https://kubernetes.io/)
 - RPC框架:[Apache Thrift](http://thrift.apache.org)
@@ -60,7 +44,9 @@
 - 配置管理:[Apollo](https://github.com/ctripcorp/apollo)
 - 前端框架:[Angular](https://angular.cn),[Vue](https://cn.vuejs.org),[React](https://reactjs.org),[jQuery](https://jquery.com),[Bootstrap](http://getbootstrap.com)
 - 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[Eureka](https://github.com/Netflix/eureka)
-- 单点登录:[Apache Shiro(http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
+- 单点登录:[Apache Shiro](http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
+- 数据平台:[Apache Beam](https://beam.apache.org),[Cloudera Manager](https://www.cloudera.com)
+- 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org)
 
 ## 支撑体系
 
@@ -85,7 +71,6 @@
 - GoLang:https://golang.org
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 - [C](https://en.wikipedia.org/wiki/ANSI_C),[Conan](https://conan.io),[GCC](https://gcc.gnu.org),[C++语言参考](https://docs.microsoft.com/zh-cn/cpp/cpp/cpp-language-reference?view=vs-2017),[Boost](http://stlchina.huhoo.net)
-- PHP:http://www.php.net
 
 ## 公开课
 
@@ -164,6 +149,23 @@
 - SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
 - 布隆过滤器:https://en.wikipedia.org/wiki/Bloom_filter
 
+## 优质资源
+
+- [AiLab](ailab/readme.md)
+- [人工智能WIKI](https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD)
+- [知识图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/Preview-source-skillmap-PNG.md)
+- [AIChallenger全球AI挑战赛](https://challenger.ai)
+- [Google专利搜索](https://patents.google.com)
+- [Google学术搜索](https://scholar.google.com)
+- [顶级的深度学习框架比较](https://deeplearning4j.org/cn/compare-dl4j-torch7-pylearn.html)
+- [AI芯片了解一下](http://china.xilinx.com)
+- [Intel开发人员社区](https://software.intel.com/zh-cn)
+- [刷刷题库?](https://leetcode-cn.com/problemset/all)
+- [数学乐](https://www.shuxuele.com)
+- [mathopolis](https://www.mathopolis.com)
+- [mathsisfun](https://www.mathsisfun.com)
+- [阿里巴巴矢量图库](https://www.iconfont.cn)
+
 ## 算法选择与知识体系
 
 ![ml_map](img/ml_map.png)
@@ -174,14 +176,11 @@
 ### 开发工具
 
 - IntelliJ IDEA
+- JetBrains CLion
 - JetBrains PyCharm
-- JetBrains WebStorm
-- JetBrains PhpStorm
-- Xmanager Enterprise 4
-- Atom
-- Axure RP 8
 - Visual Studio Code
-- Android Studio
+- Xmanager Enterprise 4
+- Axure RP 8
 
 ### 数据分析
 
@@ -195,6 +194,7 @@
 - R:https://www.r-project.org
 - RStudio:https://www.rstudio.com
 - Python:https://www.python.org
+- Anaconda:https://www.anaconda.com
 
 ### 数据库工具
 
@@ -210,6 +210,8 @@
 - TortoiseGit
 - TortoiseSVN
 - Git
+- Gogs
+- Gitlab
 
 ### 其他工具
 
