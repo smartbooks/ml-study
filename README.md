@@ -33,8 +33,7 @@
 - 内存文件:[tachyon](https://www.alluxio.org)
 - 倒排索引:[Lucene](https://lucene.apache.org/),[Elasticsearch](https://www.elastic.co/cn/products/elasticsearch),[Solr](http://lucene.apache.org/solr/)
 - 数据仓库:[presto](https://github.com/prestodb/presto),[kylin](http://kylin.apache.org),[hive](http://hive.apache.org),[Greenplum](https://greenplum.org)
-- 数据分析:[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[jupyter](https://jupyter.org)
-- 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[RStudio](https://www.rstudio.com),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
+- 机器学习:[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[deeplearning4j](https://deeplearning4j.org/cn/),[Keras](https://keras.io/zh/),[TensorFlow-CN](https://tensorflow.google.cn),[TensorFlow-Code](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph),[Chainer](https://chainer.org/),[PaddlePaddle](http://www.paddlepaddle.org/),[Darknet](https://pjreddie.com/darknet)
 - 运营报表:[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Bootstrap Metronic](https://keenthemes.com/metronic/)
 - 资源隔离:[Docker](https://www.docker.com),[Kubernetes](https://kubernetes.io/)
@@ -47,6 +46,7 @@
 - 单点登录:[Apache Shiro](http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
 - 数据平台:[Apache Beam](https://beam.apache.org),[Cloudera Manager](https://www.cloudera.com)
 - 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org),[ClickHouse](https://clickhouse.yandex)
+- 数据挖掘:[IBM SPSS Statistics 19](https://www.ibm.com/cn-zh/products/spss-statistics),[RStudio](https://www.rstudio.com),[jupyter](https://jupyter.org),[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com)
 
 ## 支撑体系
 
