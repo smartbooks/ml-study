@@ -46,7 +46,7 @@
 - 单点登录:[Apache Shiro](http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
 - 数据平台:[Apache Beam](https://beam.apache.org),[Cloudera Manager](https://www.cloudera.com)
 - 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org),[ClickHouse](https://clickhouse.yandex)
-- 数据挖掘:[IBM SPSS Statistics 19](https://www.ibm.com/cn-zh/products/spss-statistics),[RStudio](https://www.rstudio.com),[jupyter](https://jupyter.org),[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com)
+- 数据挖掘:[IBM SPASS Modeler](https://www.ibm.com/cn-zh/products/spss-modeler),[IBM SPSS Statistics](https://www.ibm.com/cn-zh/products/spss-statistics),[RStudio](https://www.rstudio.com),[jupyter](https://jupyter.org),[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[Weka](https://www.cs.waikato.ac.nz/ml/weka/)
 
 ## 支撑体系
 
@@ -149,6 +149,7 @@
 - 马尔科夫链:https://en.wikipedia.org/wiki/Markov_chain
 - SVD奇异值分解:https://en.wikipedia.org/wiki/Singular-value_decomposition
 - 布隆过滤器:https://en.wikipedia.org/wiki/Bloom_filter
+- CRISP-DM:https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining
 
 ## 优质资源
 
