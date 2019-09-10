@@ -1,9 +1,10 @@
 # ml-study
 
-## 前言科技
+## 竞赛
 
-- 自动驾驶:[百度阿波罗](http://apollo.auto)
-- infinite-band、模型群组
+- [datafountain](https://www.datafountain.cn/competitions)
+- [tianchi](https://tianchi.aliyun.com/competition/gameList/activeList)
+- [flyai](https://www.flyai.com/)
 
 ## 实践平台
 
