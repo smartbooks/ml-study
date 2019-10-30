@@ -36,7 +36,7 @@
 - 数据仓库:[presto](https://github.com/prestodb/presto),[kylin](http://kylin.apache.org),[hive](http://hive.apache.org),[Greenplum](https://greenplum.org)
 - 机器学习:[LightGBM](https://github.com/Microsoft/LightGBM),[numpy](http://www.numpy.org),[scikit-learn](http://scikit-learn.org),[sprkml](https://spark.apache.org),[spss](http://rj.baidu.com/soft/detail/14538.html),[matlab](https://cn.mathworks.com/products/matlab.html),[octave](http://www.gnu.org/software/octave/)
 - 深度学习:[deeplearning4j](https://deeplearning4j.org/cn/),[Keras](https://keras.io/zh/),[TensorFlow-CN](https://tensorflow.google.cn),[TensorFlow-Code](https://github.com/tensorflow),[Caffe2](https://caffe2.ai),[PyTorch](http://pytorch.org/),[CNTK](https://developer.nvidia.com/cuda-downloads),[MXNet](https://github.com/apache/incubator-mxnet),[neon](https://ai.intel.com/neon),[ONNX](https://github.com/onnx/onnx),[ngraph](https://github.com/NervanaSystems/ngraph),[Chainer](https://chainer.org/),[PaddlePaddle](http://www.paddlepaddle.org/),[Darknet](https://pjreddie.com/darknet)
-- 运营报表:[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Bootstrap Metronic](https://keenthemes.com/metronic/)
+- 运营报表:[ECharts](http://echarts.baidu.com),[jetty](http://www.eclipse.org/jetty),[Bootstrap Metronic](https://keenthemes.com/metronic/),[ThinkingData](https://www.thinkingdata.cn)
 - 资源隔离:[Docker](https://www.docker.com),[Kubernetes](https://kubernetes.io/)
 - RPC框架:[Apache Thrift](http://thrift.apache.org)
 - 用户画像:[Protégé](https://protege.stanford.edu),[Jena](http://jena.apache.org)
