@@ -54,7 +54,7 @@
 - 源码构建:[jenkins](https://jenkins.io/),[maven](https://maven.apache.org)
 - 源码管理:[Gogs](https://gogs.io),[gitlab](https://gitlab.com),[visualsvn](https://www.visualsvn.com/server)
 - 依赖关系:[mvn-repo](http://mvnrepository.com),[nexus](http://www.sonatype.org/nexus/go)
-- 知识管理:[confluence](https://www.atlassian.com/software/confluence)
+- 知识管理:[confluence](https://www.atlassian.com/software/confluence),[Wiki.js](https://github.com/Requarks/wiki)
 - 测试用例:[TestLink](http://www.testlink.org)
 - 缺陷管理:[jira](https://www.atlassian.com/software/jira)
 - 用户管理:[crowd](https://www.atlassian.com/software/crowd)
