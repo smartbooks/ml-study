@@ -232,6 +232,11 @@
 - Chrome Extensions Markdown Preview Plus
 - LaTex:http://www.ctex.org
 
+## 游戏相关
+- 场景设计:[Valve_Hammer_Editor](https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor)
+
+
+
 ## 政策法规
 
 - [国务院信息公开](http://www.gov.cn/zhengce/xxgkzl.htm)
