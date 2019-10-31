@@ -46,7 +46,7 @@
 - 后端框架:[Spring](https://spring.io),[Struts](http://struts.apache.org),[Tomcat](http://tomcat.apache.org),[Wamp](http://www.wampserver.com/en),[Eureka](https://github.com/Netflix/eureka)
 - 单点登录:[Apache Shiro](http://shiro.apache.org),[Spring Security](https://spring.io/projects/spring-security)
 - 数据平台:[Apache Beam](https://beam.apache.org),[Cloudera Manager](https://www.cloudera.com)
-- 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org),[ClickHouse](https://clickhouse.yandex)
+- 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org),[ClickHouse](https://clickhouse.yandex),[Apache Druid](https://druid.apache.org)
 - 数据挖掘:[IBM SPASS Modeler](https://www.ibm.com/cn-zh/products/spss-modeler),[IBM SPSS Statistics](https://www.ibm.com/cn-zh/products/spss-statistics),[RStudio](https://www.rstudio.com),[jupyter](https://jupyter.org),[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[Weka](https://www.cs.waikato.ac.nz/ml/weka/)
 
 ## 支撑体系
