@@ -233,8 +233,9 @@
 - LaTex:http://www.ctex.org
 
 ## 游戏相关
-- 场景设计:[Valve_Hammer_Editor](https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor)
-
+- 地图编辑:[Valve_Hammer_Editor](https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor),[Tile Studio](http://tilestudio.sourceforge.net),[TiledMapEditor](https://www.mapeditor.org/),[Mappy](http://www.tilemap.co.uk/mappy.php)
+- 集成工具:[unity3d](http://www.unity3d.com),[Cocos](https://www.cocos.com/),[Egret](https://www.egret.com/),[Laya](https://www.layabox.com/)
+- 纹理处理:[Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)
 
 
 ## 政策法规
