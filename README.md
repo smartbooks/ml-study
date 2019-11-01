@@ -238,6 +238,7 @@
 - 集成工具:[unity3d](http://www.unity3d.com),[Cocos](https://www.cocos.com/),[Egret](https://www.egret.com/),[Laya](https://www.layabox.com/)
 - 纹理处理:[Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)
 - 数据统计:[阿拉丁](http://aldzs.com/apps/?id=87562912)
+- 组织结构:[Supercell中台鼻祖](https://supercell.com/en/)
 
 
 ## 政策法规
