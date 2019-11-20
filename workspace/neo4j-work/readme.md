@@ -25,6 +25,12 @@ yum install -y neo4j-enterprise-3.5.12
 yum remove neo4j-3.5.12
 yum remove neo4j-enterprise-3.5.12
 
+wget http://yum.neo4j.org/stable/neo4j-enterprise-3.5.12-1.noarch.rpm
+wget http://yum.neo4j.org/stable/neo4j-3.5.12-1.noarch.rpm
+
+rpm -i neo4j-enterprise-3.5.12-1.noarch.rpm
+rpm -i neo4j-3.5.12-1.noarch.rpm
+
 ```
 
 ## 常用命令
