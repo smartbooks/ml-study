@@ -1,5 +1,32 @@
 
-# 常用命令
+# neo4j
+
+## 安装
+
+```
+#https://neo4j.com/docs/operations-manual/current/installation/linux/rpm/#linux-yum
+
+rpm --import https://debian.neo4j.org/neotechnology.gpg.key
+
+#配置YUM源
+vim /etc/yum.repos.d/neo4j.repo
+[neo4j]
+name=Neo4j RPM Repository
+baseurl=https://yum.neo4j.org/stable
+enabled=1
+gpgcheck=1
+
+#安装neo4j
+yum install -y neo4j-3.5.12
+yum install -y neo4j-enterprise-3.5.12
+
+#卸载neo4j
+yum remove neo4j-3.5.12
+yum remove neo4j-enterprise-3.5.12
+
+```
+
+## 常用命令
 
 ```
 #匹配所有数据
