@@ -5,6 +5,7 @@
 
 ```
 #https://neo4j.com/docs/operations-manual/current/installation/linux/rpm/#linux-yum
+#https://neo4j.com/docs/operations-manual/current/installation/linux/
 
 rpm --import https://debian.neo4j.org/neotechnology.gpg.key
 
