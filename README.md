@@ -72,6 +72,7 @@
 - GoLang:https://golang.org
 - R:https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 - [C](https://en.wikipedia.org/wiki/ANSI_C),[Conan](https://conan.io),[GCC](https://gcc.gnu.org),[C++语言参考](https://docs.microsoft.com/zh-cn/cpp/cpp/cpp-language-reference?view=vs-2017),[Boost](http://stlchina.huhoo.net)
+- JS:[ES5-CN](http://yanhaijing.com/es5/),[ES5-EN](https://people-mozilla.org/~jorendorff/es5.1-final.html),[ES6-CN](http://es6.ruanyifeng.com),[ES6-EN](http://www.ecma-international.org/ecma-262/6.0/#sec-type),[ES7-EN](http://www.ecma-international.org/ecma-262/7.0/index.html)
 
 ## 公开课
 
