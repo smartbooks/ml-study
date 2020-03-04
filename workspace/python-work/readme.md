@@ -58,6 +58,10 @@ conda list -n py27
 source activate py27
 source deactivate
 
+#conda激活新环境
+conda activate py27
+conda deactivate
+
 #删除虚拟环境
 conda remove -n py27 --all
 
