@@ -62,7 +62,7 @@
 - 抓包工具:[Charles](https://www.charlesproxy.com/)
 - 开发工具:[NoSQLManager](https://www.mongodbmanager.com)
 - 接口管理:[yapi](https://github.com/YMFE/yapi),[ShowDoc](https://github.com/star7th/showdoc)
-- 人工智能:[Netron](https://github.com/lutzroeder/Netron)
+- 人工智能:[Netron](https://github.com/lutzroeder/Netron),[ONNX Tool](http://onnx.ai/supported-tools.html),[ONNX Tutorials](https://github.com/onnx/tutorials)
 
 ## 编程语言
 
@@ -242,7 +242,6 @@
 - 数据统计:[阿拉丁](http://aldzs.com/apps/?id=87562912)
 - 组织结构:[Supercell中台鼻祖](https://supercell.com/en/)
 
-
 ## 政策法规
 
 - [国务院信息公开](http://www.gov.cn/zhengce/xxgkzl.htm)
@@ -262,21 +261,6 @@ OpenGL:三维图形
 OpenAL:计算机音频
 OpenCV:视频图像
 C++AMP:
-```
-
-### 推荐系统
-
-```
-0、推荐候选集
-1、决策树二次筛选,决策树IF-THEN规则
-2、点击率预估排序
-3、推荐结果展示
-4、推荐结果反馈
-平台组成:
-离线处理:偏好矩阵计算、推荐候选集、内容特征(物)，偏好特征(人)，环境特征(地)
-混合系统:召回策略、倒排索引、混合策略、点击预估、置顶加权
-实验平台:流量分桶、桶分组、实验时间、实验组、特殊条件、实验数据对比/置信度/评估
-反馈系统:实验对比、特征拟合
 ```
 
 ### Google
@@ -305,15 +289,4 @@ git tag
 git tag -a v0.1 -m 'create message'
 git push origin v0.1
 git push origin --tags
-
-#一些神奇的数字
-nimble-sight-202908
-bright-velocity-202909
-quick-rarity-202909
-cobalt-entropy-202909
-trans-opus-202909
-macro-duality-202909
-amplified-ward-202909
-infinite-pad-202909
-pristine-cairn-202909
 ```
