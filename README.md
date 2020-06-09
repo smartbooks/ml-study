@@ -62,7 +62,7 @@
 - 抓包工具:[Charles](https://www.charlesproxy.com/)
 - 开发工具:[NoSQLManager](https://www.mongodbmanager.com)
 - 接口管理:[yapi](https://github.com/YMFE/yapi),[ShowDoc](https://github.com/star7th/showdoc)
-- 人工智能:[Netron](https://github.com/lutzroeder/Netron),[ONNX Tool](http://onnx.ai/supported-tools.html),[ONNX Tutorials](https://github.com/onnx/tutorials)
+- 人工智能:[Netron](https://github.com/lutzroeder/Netron),[ONNX Tool](http://onnx.ai/supported-tools.html),[ONNX Tutorials](https://github.com/onnx/tutorials),[非线性特征区别可视化](http://playground.tensorflow.org)
 
 ## 编程语言
 
