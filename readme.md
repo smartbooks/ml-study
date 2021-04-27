@@ -24,7 +24,8 @@
 - 统一授权:[Apache Directory](https://directory.apache.org),[OpenLDAP](http://www.openldap.org),[JumpServer](https://github.com/jumpserver/jumpserver)
 - 数据存储:[mysql](https://www.mysql.com),[mongodb](https://www.mongodb.com),[cassandra](http://cassandra.apache.org),[H2](http://www.h2database.com),[SQLite](http://www.sqlite.org),Oracle,SqlServer,[FoundationDB](https://github.com/apple/foundationdb)
 - 高速缓存:[redis](https://redis.io),[memcached](https://www.memcached.org),[twemproxy](https://github.com/twitter/twemproxy),[HBase](https://hbase.apache.org)
-- 图数据库:[neo4j](https://neo4j.com),[InfiniteGraph](https://www.objectivity.com/products/infinitegraph/),[DEX](http://sparsity-technologies.com),[InfoGrid](http://infogrid.org/trac),[HyperGraphDB](http://hypergraphdb.org/),[Trinity](https://www.graphengine.io),[AllegroGraph](https://allegrograph.com),[OrientDB](https://orientdb.com),[Apache TinkerPop](http://tinkerpop.apache.org)
+- 图数据库:[neo4j](https://neo4j.com),[InfiniteGraph](https://www.objectivity.com/products/infinitegraph/),[DEX](http://sparsity-technologies.com),[InfoGrid](http://infogrid.org/trac),[HyperGraphDB](http://hypergraphdb.org/),[Trinity](https://www.graphengine.io),[AllegroGraph](https://allegrograph.com),[OrientDB](https://orientdb.com),[Apache TinkerPop](http://tinkerpop.apache.org),[NebulaGraph](https://github.com/vesoft-inc/nebula-graph),[DGraph](https://github.com/dgraph-io/dgraph)
+- 向量数据库:[faiss](https://github.com/facebookresearch/faiss),[SPTAG](https://github.com/microsoft/SPTAG),[vearch](https://github.com/vearch/vearch),[milvus](https://github.com/milvus-io/milvus)
 - 爬虫采集:[Scrapy](https://scrapy.org)
 - 中文分词:[Jcseg](https://github.com/lionsoul2014/jcseg)
 - 日志采集:[flume](http://flume.apache.org),[logstash](https://www.elastic.co/cn/products/logstash)
@@ -51,6 +52,7 @@
 
 ## 支撑体系
 
+- 发布系统:[蓝鲸智云社区版](https://bk.tencent.com/product)
 - 源码构建:[jenkins](https://jenkins.io/),[maven](https://maven.apache.org)
 - 源码管理:[Gogs](https://gogs.io),[gitlab](https://gitlab.com),[visualsvn](https://www.visualsvn.com/server)
 - 依赖关系:[mvn-repo](http://mvnrepository.com),[nexus](http://www.sonatype.org/nexus/go)
