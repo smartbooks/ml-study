@@ -49,6 +49,7 @@
 - 数据平台:[Apache Beam](https://beam.apache.org),[Cloudera Manager](https://www.cloudera.com)
 - 实时分析:[Apache Flink](https://flink.apache.org),[Apache Storm](http://storm.apache.org),[ClickHouse](https://clickhouse.yandex),[Apache Druid](https://druid.apache.org)
 - 数据挖掘:[IBM SPASS Modeler](https://www.ibm.com/cn-zh/products/spss-modeler),[IBM SPSS Statistics](https://www.ibm.com/cn-zh/products/spss-statistics),[RStudio](https://www.rstudio.com),[jupyter](https://jupyter.org),[zeppelin](https://zeppelin.apache.org),[hue](http://gethue.com),[Weka](https://www.cs.waikato.ac.nz/ml/weka/)
+- 运维工具:[Supervisor](http://supervisord.org),[puppet](https://puppet.com),[cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html)
 
 ## 支撑体系
 
